@@ -1,0 +1,40 @@
+{
+  "name": "my-cv",
+  "version": "0.0.1",
+  "description": "My responsive and cool looking resume using HTML5",
+  "scripts": {
+    "build": "node_modules/.bin/webpack",
+    "watch": "node_modules/.bin/webpack -w",
+    "dev": "node_modules/.bin/webpack-dev-server --inline --hot"
+  },
+  "author": "N.LOHINSKI",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.24.0",
+    "babel-loader": "^6.4.1",
+    "babel-polyfill": "^6.9.1",
+    "babel-preset-es2015": "^6.14.0",
+    "css-loader": "^0.28.0",
+    "eslint": "^3.16.1",
+    "eslint-config-google": "^0.7.1",
+    "eslint-config-vue": "^2.0.2",
+    "eslint-loader": "^1.7.1",
+    "eslint-plugin-html": "^2.0.1",
+    "eslint-plugin-vue": "^2.0.1",
+    "file-loader": "^0.11.1",
+    "node-sass": "^4.5.3",
+    "sass-loader": "^6.0.3",
+    "style-loader": "^0.16.1",
+    "vue-hot-reload-api": "^2.1.0",
+    "vue-html-loader": "^1.2.4",
+    "vue-loader": "^11.3.4",
+    "vue-template-compiler": "^2.1.10",
+    "webpack": "^2.6.0",
+    "webpack-dev-server": "^2.4.5"
+  },
+  "dependencies": {
+    "chart.js": "^2.5.0",
+    "font-awesome": "^4.7.0",
+    "vue": "^2.3.3"
+  }
+}

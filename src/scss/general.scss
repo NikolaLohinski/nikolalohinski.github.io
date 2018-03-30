@@ -1,0 +1,29 @@
+// BACKGROUNDS
+$default-background: #ccc;
+$page-background: linear-gradient(#fff, #f6f6f6);
+
+// FONTS
+@font-face {src: url('fonts/latin-modern-light.otf'); font-family: LateXLike;}
+@font-face {src: url('fonts/myriad.ttf'); font-family: AppleLike;}
+
+// SIZES
+//  1. Pages
+$A4-big: 29.7cm;
+$A4-small: 21cm;
+
+// 2. Page setup
+$margin-LR: 1cm;
+$margin-TB: 0.5cm;
+$header-height: 2cm;
+$footer-height: 2cm;
+
+// MISC
+@mixin center-transform () { position:absolute; top:50%; left:50%; transform:translate(-50%,-50%) }
+.center { text-align: center }
+.justify { text-align: justify }
+.left { text-align: left }
+.right { text-align: right }
+a {text-decoration: none; color: inherit;}
+.underline { text-decoration: underline; }
+exp { transform: scale(0.8) translateY(-25%); display: inline-block; }
+h1, h2, h3, h4, h5, h6 { font-weight: 100; }
