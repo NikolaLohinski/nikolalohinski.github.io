@@ -24,6 +24,10 @@
       padding: 0;
       margin: 0;
       border-radius: 0;
+      box-shadow: none;
+    }
+    > * {
+      margin: 5px auto;
     }
   }
 </style>

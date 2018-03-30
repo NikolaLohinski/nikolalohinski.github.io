@@ -5,3 +5,10 @@ $paper-background-color: linear-gradient(#fff, #f6f6f6);
 // Fonts
 $default-font-color: #666;
 $link-font-color: #0070C9;
+a {
+  color: $link-font-color !important;
+  text-decoration: none !important;
+}
+
+// Borders:
+$default-border-color: #ddd;

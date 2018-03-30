@@ -1,20 +1,37 @@
 <template>
   <div class="root">
     <sheet>
-      <heading slot="content"></heading>
+      <div slot="content">
+        <heading></heading>
+        <pro-experience></pro-experience>
+        <education></education>
+        <it-skills></it-skills>
+        <other></other>
+        <languages></languages>
+      </div>
     </sheet>
   </div>
 </template>
 <script>
   import Sheet from './sheet.vue';
   import Heading from './heading.vue';
+  import ProExperience from './pro-experience.vue';
+  import Education from './education.vue';
+  import ItSkills from './it-skills.vue';
+  import Other from './other.vue';
+  import Languages from './languages.vue';
   export default {
     data () {
       return {};
     },
     components: {
       Sheet,
-      Heading
+      Heading,
+      ProExperience,
+      Education,
+      ItSkills,
+      Other,
+      Languages
     }
   };
 </script>
