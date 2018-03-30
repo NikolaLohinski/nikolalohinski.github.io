@@ -1,11 +1,14 @@
-const Path = require('path');
-
+const Webpack = require('webpack');
+const HTMLWebpackPlugin = require('html-webpack-plugin');
+const AppCachePlugin = require('appcache-webpack-plugin');
+const FaviconsWebpackPlugin = require('favicons-webpack-plugin');
 module.exports = {
-  entry:  './src/main.js',
+  entry: {
+    'app.js': './src/js/main.js'
+  },
   output: {
-    path: Path.resolve(__dirname, 'out'),
-    publicPath: 'out/',
-    filename: 'build.js'
+    path: require('path').resolve(__dirname, 'public'),
+    filename: '[name]'
   },
   resolve: {
     alias: {
@@ -15,18 +18,34 @@ module.exports = {
   module: {
     rules: [
       {
-        enforce: "pre",
+        enforce: 'pre',
         test: /\.(js|vue)$/,
+        exclude: [/node_modules/, /\.min.js$/],
+        loader: 'eslint-loader'
+      },
+      {
+        test: /\.css$/,
+        loader: 'style-loader!css-loader'
+      },
+      {
+        test: /\.(png|jpg|svg|ttf|otf|min.js)$/,
+        loader: 'file-loader',
+        options: {
+          name: '[hash].[ext]'
+        }
+      },
+      {
+        test: /\.html$/,
         exclude: /node_modules/,
-        loader: "eslint-loader"
-      },
-      {
-        test: /\.(jpg|png|svg)$/,
-        loader: 'file-loader'
-      },
-      {
-        test: /\.(eot|svg|ttf|woff|woff2|otf)$/,
-        loader: 'file-loader'
+        use: [{
+          loader: 'html-loader',
+          options: {
+            minimize: true,
+            removeComments: true,
+            collapseWhitespace: true,
+            attrs: ['link:href', 'script:src']
+          }
+        }]
       },
       {
         test: /\.js$/,
@@ -39,10 +58,35 @@ module.exports = {
         loader: 'vue-loader',
         options: {
           loaders: {
-            'scss': 'vue-style-loader!css-loader!sass-loader'
+            scss: 'vue-style-loader!css-loader!sass-loader'
           }
         }
       }
     ]
-  }
+  },
+  plugins: [
+    new FaviconsWebpackPlugin({
+      logo: './src/img/logo.png',
+      prefix: 'assets/',
+      emitStats: false,
+      statsFilename: 'assets/[hash].json',
+      persistentCache: false,
+      inject: true,
+      background: '#fff',
+      title: 'CV'
+    }),
+    new HTMLWebpackPlugin({
+      template: 'src/html/index.html',
+      filename: 'index.html'
+    }),
+    new AppCachePlugin({
+      network: ['*', '/check-connection'],
+      output: 'cache.manifest'
+    }),
+    new Webpack.DefinePlugin({
+      'process.env': {
+        NODE_ENV: '"production"'
+      }
+    })
+  ]
 };
