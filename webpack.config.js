@@ -28,7 +28,7 @@ module.exports = {
         loader: 'style-loader!css-loader'
       },
       {
-        test: /\.(png|jpg|svg|ttf|otf|min.js)$/,
+        test: /\.(png|jpg|jpeg|gif|svg|woff|woff2|ttf|eot|otf|min.js)(\?.*$|$)/,
         loader: 'file-loader',
         options: {
           name: '[hash].[ext]'
