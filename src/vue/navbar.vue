@@ -1,12 +1,20 @@
 <template>
   <div class="navbar">
-    <a href="#" class="logo"></a>
+    <a href="#" class="logo" title="Nikola LOHINSKI"></a>
     <v-touch tag="a"
              href="#"
              v-for="l in languages"
              :key="l"
+             :title="$t('navbar.translate') + ' ' + $t(`languages.${l}`)"
              @tap="setLanguage(l)">
       {{ $t(`languages.${l}`) }}
+    </v-touch>
+    <v-touch tag="a"
+             :href="`pdf/${$store.getters.getLanguage}.pdf`"
+             target="_blank"
+             :title="$t('navbar.pdf')"
+             class="pdf">
+      <i class="fa fa-file-pdf-o"></i>
     </v-touch>
   </div>
 </template>
@@ -51,10 +59,15 @@
       line-height: $nav-height;
       user-select: none;
       outline: none;
+      float: left;
       &.logo {
-        width: 50px;
-        background: $logo-no-background 10px 10px no-repeat;
+        width: 30px;
+        background: $logo-no-background 0 10px no-repeat;
         background-size: 30px;
+      }
+      &.pdf {
+        float: right;
+        width: 30px;
       }
       &:hover {
         filter: brightness(0.7);

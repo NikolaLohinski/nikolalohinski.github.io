@@ -95,6 +95,10 @@ const translations = {
       'bilingual': 'Binlingual',
       'confirmed': 'Confirmed',
       'fluent': 'Fluent'
+    },
+    'navbar': {
+      'translate': 'Translate in',
+      'pdf': 'Get a PDF'
     }
   },
   french: {
@@ -194,6 +198,10 @@ const translations = {
       'bilingual': 'Bilingue',
       'confirmed': 'Confirmé',
       'fluent': 'Courant'
+    },
+    'navbar': {
+      'translate': 'Traduire en',
+      'pdf': 'Obtenir un PDF'
     }
   }
 };
