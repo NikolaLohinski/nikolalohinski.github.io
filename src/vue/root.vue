@@ -39,7 +39,20 @@
   @import '../scss/colors';
   @import '../scss/fonts';
   @import '../scss/dimensions';
+  @page {
+    size: auto !important;
+    margin: 0 .25in !important;
+    padding: 0.25in 0.5in !important;
+  }
   .root {
+    @media print {
+      margin: 0 !important;
+      padding: 0 !important;
+      width: 100vw !important;
+      height: 100vh !important;
+      overflow-y: hidden !important;
+      -webkit-overflow-scrolling:initial !important;
+    }
     position: fixed;
     top: 0;
     left: 0;

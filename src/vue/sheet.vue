@@ -29,5 +29,10 @@
     > * {
       margin: 5px auto;
     }
+    @media print {
+      margin: 0 !important;
+      border-radius: initial !important;
+      box-shadow: initial !important;
+    }
   }
 </style>
