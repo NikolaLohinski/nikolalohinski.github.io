@@ -58,10 +58,10 @@
     left: 0;
     width: 100vw;
     height: 100vh;
-    overflow-x: hidden;
-    overflow-y: auto;
+    overflow: hidden;
     font-size: $general-font-size;
     background: $default-background-color;
+    background-size: cover;
     color: $default-font-color;
     font-family: $default-font-family;
   }

@@ -20,11 +20,13 @@
     @media screen and (max-width: $A4-width),
     screen and (max-device-width: $A4-width) {
       width: 100vw;
-      height: initial;
+      height: 100vh;
       padding: 0;
       margin: 0;
       border-radius: 0;
       box-shadow: none;
+      overflow: auto;
+      -webkit-overflow-scrolling: touch;
     }
     > * {
       margin: 5px auto;

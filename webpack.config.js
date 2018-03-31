@@ -72,7 +72,7 @@ module.exports = {
       statsFilename: 'assets/[hash].json',
       persistentCache: false,
       inject: true,
-      background: '#fff',
+      background: '#2ea6cb',
       title: 'CV'
     }),
     new HTMLWebpackPlugin({
