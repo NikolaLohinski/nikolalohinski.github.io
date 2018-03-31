@@ -19,14 +19,13 @@
       return {
         id: Math.round(Math.random() * 1000000),
         chart: null,
-        type: 'horizontalBar',
         data: [
           { name: 'HTML5, CSS, JS', level: 4, moreInfo: 'VueJS, Webpack, AngularJS...' },
           { name: 'NodeJS', level: 4, moreInfo: 'Electron, Express, Laravel-elixir...' },
-          { name: 'Python', level: 4, moreInfo: 'SQLAlchemy, Flask, Luigi...' },
+          { name: 'Python, R', level: 4, moreInfo: 'SQLAlchemy, Flask, Luigi...' },
+          { name: 'Spark', level: 3, moreInfo: 'PySpark' },
           { name: 'MongoDB', level: 3, moreInfo: '' },
           { name: 'PostgreSQL', level: 3, moreInfo: '' },
-          { name: 'R', level: 3, moreInfo: '' },
           { name: 'DynamoDB / S3', level: 2, moreInfo: '' },
           { name: 'ElasticSearch', level: 2, moreInfo: 'Kibana, Sense, Logstash' },
           { name: 'JAVA', level: 2, moreInfo: '' },
@@ -40,12 +39,7 @@
     },
     computed: {
       options () {
-        const callbackLabel = (tooltipItem) => {
-          return this.$t(`it-skills.labels.${this.labels[tooltipItem.xLabel]}`);
-        };
-        const callbackFooter = (tooltipItem) => {
-          return this.data[tooltipItem[0].index].moreInfo;
-        };
+        const self = this;
         return {
           elements: {
             rectangle: {
@@ -71,8 +65,12 @@
           },
           tooltips: {
             callbacks: {
-              label: callbackLabel,
-              footer: callbackFooter
+              label (tooltipItem) {
+                return self.$t(`it-skills.labels.${self.labels[tooltipItem.xLabel]}`);
+              },
+              footer (tooltipItem) {
+                return self.data[tooltipItem[0].index].moreInfo;
+              }
             },
             displayColors: false
           }
@@ -96,7 +94,7 @@
     mounted () {
       const ctx = document.getElementById(this.id).getContext('2d');
       this.chart = new ChartJS(ctx, {
-        type: this.type,
+        type: 'horizontalBar',
         data: {
           labels: this.labelset,
           datasets: this.dataset
@@ -111,7 +109,8 @@
   .chart-box {
     width: 100%;
     height: 100%;
-    min-height: 300px;
+    min-height: 250px;
+    margin-top: 25px;
     position: relative;
   }
 </style>

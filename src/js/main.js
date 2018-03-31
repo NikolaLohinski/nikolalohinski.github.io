@@ -16,6 +16,15 @@ import I18n from './i18n.js';
 Vue.use(VueCanvas);
 Vue.use(VueResource);
 Vue.use(VueTouch, { name: 'v-touch' });
+// Directive to change **word** into <b>word</b> html
+Vue.directive('embolden', (el, binding) => {
+  const split = binding.value.split('**');
+  let newString = split[0];
+  for (let k = 1; k < split.length; k = k + 2) {
+    newString += '<b>' + split[k] + '</b>' + split[k + 1];
+  }
+  el.innerHTML = newString;
+});
 
 /* 3. Set VueX state manager */
 Vue.use(VueX);

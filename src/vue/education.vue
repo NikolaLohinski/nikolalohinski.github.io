@@ -9,7 +9,9 @@
     <div slot="content">
       <v-article>
         <span slot="title">
-          {{ $t('education.supaero.name') }}
+          <a href="https://www.isae-supaero.fr/">
+            {{ $t('education.supaero.name') }}
+          </a>
         </span>
         <span slot="sub-title">
           {{ $t('education.supaero.degree') }}
@@ -18,13 +20,20 @@
           2014 - 2018
         </span>
         <ul slot="bullet-points">
-          <li v-html="bold2Html($t('education.supaero.desc-1'))"></li>
-          <li v-html="bold2Html($t('education.supaero.desc-2'))"></li>
+          <li v-embolden="$t('education.supaero.desc-1')"></li>
+          <li v-embolden="$t('education.supaero.desc-2')"></li>
+          <li><span v-embolden="$t('education.supaero.desc-3')"></span> :
+            <a href="http://project-nebula.github.io">
+              http://project-nebula.github.io
+            </a>
+          </li>
         </ul>
       </v-article>
       <v-article>
         <span slot="title">
-          {{ $t('education.lycee-parc.name') }}
+          <a href="https://lyceeduparc.fr/ldp/">
+            {{ $t('education.lycee-parc.name') }}
+          </a>
         </span>
         <span slot="sub-title">
           {{ $t('education.lycee-parc.degree') }}
@@ -33,7 +42,7 @@
           2012 - 2014
         </span>
         <ul slot="bullet-points">
-          <li v-html="bold2Html($t('education.lycee-parc.desc-1'))"></li>
+          <li v-embolden="$t('education.lycee-parc.desc-1')"></li>
         </ul>
       </v-article>
     </div>
@@ -46,20 +55,6 @@
     components: {
       'v-section': Section,
       'v-article': Article
-    },
-    methods: {
-      bold2Html (s) {
-        const splitted = s.split('**');
-        if (splitted.length < 2) {
-          return s;
-        } else {
-          let newString = splitted[0];
-          for (let k = 1; k < splitted.length; k = k + 2) {
-            newString += '<b>' + splitted[k] + '</b>' + splitted[k + 1];
-          }
-          return newString;
-        }
-      }
     }
   };
 </script>

@@ -3,21 +3,22 @@ $A4-height: 29.7cm;
 $A4-width: 21cm;
 
 /* Page setup */
-$margin-left-right: 1cm;
-$margin-top-bottom: 0.5cm;
+$margin-left-right: 1.5cm;
+$margin-top-bottom: 1cm;
 
 /* Font sizes */
 // Heading
 $general-font-size: 15px;
-$name-font-size: 50px;
+$name-font-size: 45px;
 // Sections
 $titles-font-size: 25px;
 $titles-icon-size: 28px;
 // Articles
 $article-title-font-size: 20px;
 $article-title-complement-font-size: 20px;
-$article-sub-title-font-size: 15px;
-$article-sub-title-complement-font-size: 15px;
+$article-small-title-font-size: 18px;
+$article-sub-title-font-size: 14px;
+$article-sub-title-complement-font-size: 14px;
 
 /* Collapse heading */
 $collapse-heading-width: 650px;

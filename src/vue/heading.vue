@@ -60,6 +60,15 @@
         }
       }
     }
+    @media screen and (max-device-width: $collapse-heading-width),
+        screen and (max-width: $collapse-heading-width){
+      ul {
+        margin: 0;
+         > li {
+          margin: 5px 0 !important;
+        }
+      }
+    }
     ul {
       list-style: none;
       padding: 0;
@@ -68,10 +77,6 @@
       display: inline-block;
       li {
         margin: 5px 0 5px 20px;
-        @media screen and (max-device-width: $collapse-heading-width),
-        screen and (max-width: $collapse-heading-width){
-          margin: 5px 0;
-        }
         height: 28%;
         .bullet {
           width: 22px;

@@ -1,10 +1,14 @@
 // Backgrounds
 $default-background-color: #ccc;
 $paper-background-color: linear-gradient(#fff, #f6f6f6);
+$language-background-graph-color: #deedf8;
+$tooltip-background-color: rgba(0, 0, 0, 0.75);
 
 // Fonts
 $default-font-color: #666;
 $link-font-color: #0070C9;
+$bold-font-color: #333;
+$tooltip-font-color: #fff;
 a {
   color: $link-font-color !important;
   text-decoration: none !important;
@@ -12,3 +16,4 @@ a {
 
 // Borders:
 $default-border-color: #ddd;
+$language-border-graph-color: #3e92d6;

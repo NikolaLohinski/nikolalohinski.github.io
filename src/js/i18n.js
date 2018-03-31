@@ -15,7 +15,11 @@ const translations = {
     'pro-experience': {
       'title': 'Professional experience',
       'thales-avs': {
-        'name': 'Thales AVS'
+        'name': 'Thales AVS',
+        'desc-1': 'Enhancing and industrializing **datamining** and clustering algorithms for ' +
+        'flight **anomaly detection**',
+        'desc-2': 'Establishing new methods for **massive testing** on flight data to' +
+        ' accelerate product validation'
       },
       'thales-avionics': {
         'name': 'Thales Avionics',
@@ -39,7 +43,9 @@ const translations = {
         'name': 'ISAE - Supaéro',
         'degree': 'Masters of engineering in data science',
         'desc-1': 'Specialized in **data science** and **data mining** technologies',
-        'desc-2': 'Followed **Autonomous Systems** course applied to **robotics**'
+        'desc-2': 'Followed **Autonomous Systems** course applied to **robotics**',
+        'desc-3': 'Designed an app using **erasure codes** to combine public ' +
+        'storage services to ensure reliability and privacy of online data'
       },
       'lycee-parc': {
         'name': 'Lycéee du Parc',
@@ -58,10 +64,37 @@ const translations = {
       }
     },
     'other': {
-      'title': 'Other experiences'
+      'title': 'Other experiences',
+      'as-isae': {
+        'name': 'ISAE - Supaéro students sports organization',
+        'role': 'Vice-president',
+        'desc-1': 'Designed an **HTML5** app for an annual student’s ' +
+        'sport event'
+      },
+      'music': {
+        'name': 'Music',
+        'instruments': 'Violin, Clarinet, Guitar'
+      },
+      'sports': {
+        'name': 'Sports',
+        'sports': 'Volley-ball, Table tennis'
+      },
+      'art': {
+        'name': 'Art',
+        'content': 'Président du Journal Télévisé Supaéro'
+      }
     },
     'languages': {
-      'title': 'Languages'
+      'title': 'Languages',
+      'french': 'French',
+      'english': 'English',
+      'croatian': 'Croatian',
+      'native-language': 'Native language',
+      'toefl-610': 'TOEFL ITP 610/670',
+      'mother-tongue': 'Mother tongue',
+      'bilingual': 'Binlingual',
+      'confirmed': 'Confirmed',
+      'fluent': 'Fluent'
     }
   },
   french: {
@@ -78,9 +111,13 @@ const translations = {
       'now': 'Actuellement'
     },
     'pro-experience': {
-      'title': 'Expérience professionnelle',
+      'title': 'Expérience',
       'thales-avs': {
-        'name': 'Thales AVS'
+        'name': 'Thales AVS',
+        'desc-1': 'Industrialisation d\'outils de **datamining**' +
+        ' pour la **détection d\'anomalies** sur des trajectoires de vol',
+        'desc-2': 'Création de nouvelles **suites de tests** sur données avion' +
+        ' pour accélerer la validation produit'
       },
       'thales-avionics': {
         'name': 'Thales Avionics',
@@ -106,7 +143,9 @@ const translations = {
         'name': 'ISAE - Supaéro',
         'degree': 'Formation ingénieur en Data Science',
         'desc-1': 'Spécialisation en **science des données** et **Data mining**',
-        'desc-2': 'Domaine **Systèmes Autonomes** en parcours **robotique**'
+        'desc-2': 'Domaine **Systèmes Autonomes** en parcours **robotique**',
+        'desc-3': 'Design d\'une app utilisant les **codes à effacement** pour combiner les ' +
+        'services de stockage en ligne avec sécurité et fiabilité des données'
       },
       'lycee-parc': {
         'name': 'Lycéee du Parc',
@@ -125,10 +164,36 @@ const translations = {
       }
     },
     'other': {
-      'title': 'Autres expériences'
+      'title': 'Autres expériences',
+      'as-isae': {
+        'name': 'Association sportive de l\'ISAE-Supaéro',
+        'role': 'Vice-président',
+        'desc-1': 'Création d’une app web **HTML5** pour un évènement sportif annuel'
+      },
+      'music': {
+        'name': 'Musique',
+        'instruments': 'Violon, Clarinette, Guitare'
+      },
+      'sports': {
+        'name': 'Sports',
+        'sports': 'Volley-ball, Tennis de table'
+      },
+      'art': {
+        'name': 'Art',
+        'content': 'Président du Journal Télévisé Supaéro'
+      }
     },
     'languages': {
-      'title': 'Langues'
+      'title': 'Langues',
+      'french': 'Français',
+      'english': 'Anglais',
+      'croatian': 'Croate',
+      'native-language': 'Langue natale',
+      'toefl-610': 'TOEFL ITP 610/670',
+      'mother-tongue': 'Langue maternelle',
+      'bilingual': 'Bilingue',
+      'confirmed': 'Confirmé',
+      'fluent': 'Courant'
     }
   }
 };

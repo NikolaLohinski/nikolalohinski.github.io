@@ -41,10 +41,14 @@
       }
       .main-title {
         font-size: $article-title-font-size;
+        [size='S'] {
+          font-size: $article-small-title-font-size;
+        }
       }
       .title-complement {
         font-size: $article-title-complement-font-size;
         float: right;
+        text-align: right;
       }
     }
     .article-sub-title {
@@ -69,20 +73,21 @@
         margin-top: 5px;
         margin-bottom: 20px;
         li {
+          position: relative;
           margin: 5px;
           &:before {
             content: '\2012';
-            position: relative;
-            left: -10px;
+            position: absolute;
+            left: -15px;
           }
           font-size: 16px;
           text-align: justify;
-          b {
-            color: $link-font-color;
-            font-weight: normal;
-          }
         }
       }
+    }
+     b {
+      color: $bold-font-color;
+      font-weight: normal;
     }
   }
 </style>
