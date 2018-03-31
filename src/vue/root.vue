@@ -1,5 +1,6 @@
 <template>
   <div class="root">
+    <v-navbar></v-navbar>
     <sheet>
       <div slot="content">
         <heading></heading>
@@ -20,6 +21,7 @@
   import ItSkills from './it-skills.vue';
   import Other from './other.vue';
   import Languages from './languages.vue';
+  import Navbar from './navbar.vue';
   export default {
     data () {
       return {};
@@ -31,7 +33,8 @@
       Education,
       ItSkills,
       Other,
-      Languages
+      Languages,
+      'v-navbar': Navbar
     }
   };
 </script>
@@ -58,7 +61,12 @@
     left: 0;
     width: 100vw;
     height: 100vh;
-    overflow: hidden;
+    overflow-x: hidden;
+    overflow-y: auto;
+    @media screen and (max-width: $A4-width),
+    screen and (max-device-width: $A4-width) {
+      overflow: hidden;
+    }
     font-size: $general-font-size;
     background: $default-background-color;
     background-size: cover;

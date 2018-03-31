@@ -35,7 +35,7 @@ Vm.store = new VueX.Store(Store);
 Vue.use(VuexI18n.plugin, Vm.store);
 // The second argument is the default language
 I18n(Vue, 'english');
-Vm.i18n = Vue.i18n;
+Vm.store.i18n = Vue.i18n;
 
 /* 5. Create Vue Virtual machine instance */
 // Create Vue machine

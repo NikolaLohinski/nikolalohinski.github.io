@@ -10,7 +10,7 @@
     position: relative;
     background: $paper-background-color;
     display: block;
-    margin: 15px auto;
+    margin: 65px auto 15px auto;
     box-shadow: 0 0 0.5cm rgba(0,0,0,0.5);
     border-radius: 3px;
     overflow: hidden;
@@ -20,13 +20,14 @@
     @media screen and (max-width: $A4-width),
     screen and (max-device-width: $A4-width) {
       width: 100vw;
-      height: 100vh;
-      padding: 0;
+      height: calc(100vh - 90px);
       margin: 0;
+      padding: 65px 0 25px 0;
       border-radius: 0;
       box-shadow: none;
       overflow: auto;
       -webkit-overflow-scrolling: touch;
+      overflow-x: hidden;
     }
     > * {
       margin: 5px auto;
