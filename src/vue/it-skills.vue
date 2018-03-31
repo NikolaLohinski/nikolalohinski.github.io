@@ -112,5 +112,9 @@
     min-height: 250px;
     margin-top: 25px;
     position: relative;
+    @media print {
+      width: 250px;
+      margin-left: 15dpx;
+    }
   }
 </style>
