@@ -113,7 +113,7 @@
         text-transform: capitalize;
         .fa {
           transition: all 200ms;
-          margin-right: 5px;
+          margin: auto 5px;
           color: $darker-background-font-color;
         }
       }
