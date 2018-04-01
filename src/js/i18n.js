@@ -1,5 +1,5 @@
 const translations = {
-  english: {
+  'en-EN': {
     'tel-display': '+33 6 23 93 85 86',
     'tel': '+33623938586',
     'mail': 'lohinski.nikola@free.fr',
@@ -77,11 +77,11 @@ const translations = {
       },
       'sports': {
         'name': 'Sports',
-        'sports': 'Volley-ball, Table tennis'
+        'sports': 'Volleyball, Table tennis'
       },
       'art': {
         'name': 'Art',
-        'content': 'Président du Journal Télévisé Supaéro'
+        'content': 'Manager of the school\'s TV show'
       }
     },
     'languages': {
@@ -93,15 +93,21 @@ const translations = {
       'toefl-610': 'TOEFL ITP 610/670',
       'mother-tongue': 'Mother tongue',
       'bilingual': 'Binlingual',
-      'confirmed': 'Confirmed',
+      'confirmed': 'Work experienced',
       'fluent': 'Fluent'
     },
     'navbar': {
-      'translate': 'Translate in',
-      'pdf': 'Get a PDF'
+      'translate-in-en-EN': 'Translate in English',
+      'translate-in-fr-FR': 'Translate in French',
+      'translate-in-hr-HR': 'Translate in Croatian',
+      'pdf': 'Get a PDF',
+      'translate': 'Translate',
+      'en-EN': 'Enlgish',
+      'fr-FR': 'French',
+      'hr-HR': 'Croatian'
     }
   },
-  french: {
+  'fr-FR': {
     'tel-display': '06 23 93 85 86',
     'tel': '+33623938586',
     'mail': 'lohinski.nikola@free.fr',
@@ -200,16 +206,134 @@ const translations = {
       'fluent': 'Courant'
     },
     'navbar': {
-      'translate': 'Traduire en',
-      'pdf': 'Obtenir un PDF'
+      'translate-in-french': 'Traduire en Français',
+      'translate-in-en-EN': 'Traduire en Anglais',
+      'translate-in-hr-HR': 'Traduire en Croate',
+      'pdf': 'Obtenir un PDF',
+      'translate': 'Traduire',
+      'en-EN': 'Anglais',
+      'fr-FR': 'Français',
+      'hr-HR': 'Croate'
+    }
+  },
+  'hr-HR': {
+    'tel-display': '+33 6 23 93 85 86',
+    'tel': '+33623938586',
+    'mail': 'lohinski.nikola@free.fr',
+    'address': '26 Rue des Changes, 31000 Toulouse FRANCUSKA',
+    'github': 'https://github.com/nikolalohinski',
+    'datetime': {
+      'april': 'April',
+      'now': 'Trenutno',
+      'january': 'Januar',
+      'december': 'Decembar',
+      'july': 'Jul'
+    },
+    'pro-experience': {
+      'title': 'Profesionalno iskustvo',
+      'thales-avs': {
+        'name': 'Thales AVS',
+        'desc-1': 'Poboljšavanje algoritama za **datamining**' +
+        ' i klasteriranja za **otkrivanje anomalije** za vreme leta',
+        'desc-2': 'Uspostavljanje novih metoda za **masovno testiranje** ' +
+        'podataka kako bi se ubrzala validacija proizvoda'
+      },
+      'thales-avionics': {
+        'name': 'Thales Avionics',
+        'desc-1': 'Kreirani **C** i **JavaScript** algoritmi za operacije ' +
+        'i funkcioniranje u zračnoj luci',
+        'desc-2': 'Izrada prototipa kostura aplikacije **AngularJS**'
+      },
+      'sfara': {
+        'name': 'Sfara Inc.',
+        'desc-1': 'Razvijene usluge i alati za vizualizaciju podataka za korisnički portal uz **Vue.js**',
+        'desc-2': 'Poboljšana obrada podataka na **Python** serverima kroz **Flask** i **Luigi**',
+        'desc-3': 'Ažurirana upotreba zapisnika pomoću **ElasticSearch**, **Kibana** i **Logstash**'
+      },
+      'toulouse-france': 'Toulouse, Francuska',
+      'new-york-usa': 'New York, SAD',
+      'internship-gap-year': 'Staž - Jaz godina',
+      'end-of-course-internship': 'Završni staž'
+    },
+    'education': {
+      'title': 'Obrazovanje',
+      'supaero': {
+        'name': 'ISAE - Supaéro',
+        'degree': 'Magisterij inženjerske nauke iz Data Science',
+        'desc-1': 'Specijalizacija iz **Data Science** i **Data mining** technologijama',
+        'desc-2': 'Slijedio tečaj autonomnih sustava primjenjijno robotici',
+        'desc-3': 'Dizajniranje aplikacije za kombiniranje usluga udaljenog ' +
+        'poslužitelja kako bi se osigurala pouzdanost i privatnost podataka na mreži'
+      },
+      'lycee-parc': {
+        'name': 'Lycéee du Parc',
+        'degree': 'Pripremna škola MPSI/PSI*',
+        'desc-1': 'Natjecateljski ispit “Mines-Ponts” **top 3%**'
+      }
+    },
+    'it-skills': {
+      'title': 'Informatika',
+      'labels': {
+        'beginner': 'Početnik',
+        'basics': 'Osnove',
+        'intermediate': 'Srednji',
+        'experienced': 'Napredni',
+        'expert': 'Izvrstan'
+      }
+    },
+    'other': {
+      'title': 'Ostala iskustva',
+      'as-isae': {
+        'name': 'ISAE - Supaéro studentska sportska organizacija',
+        'role': 'Dopredsjednik',
+        'desc-1': 'Dizajniranje **HTML5** aplikacije za godišnji studentski sportski događaj'
+      },
+      'music': {
+        'name': 'Musika',
+        'instruments': 'Violina, Klarinet, Gitara'
+      },
+      'sports': {
+        'name': 'Sportovi',
+        'sports': 'Odbojka, Stolni tenis'
+      },
+      'art': {
+        'name': 'Umjetnost',
+        'content': 'Voditelj od školske TV emisije'
+      }
+    },
+    'languages': {
+      'title': 'Jezici',
+      'french': 'Francuski',
+      'english': 'Engleski',
+      'croatian': 'Hrvatski',
+      'native-language': 'Materinji jezik',
+      'toefl-610': 'TOEFL ITP 610/670',
+      'mother-tongue': 'Materinji jezik',
+      'bilingual': 'Dvojezični',
+      'confirmed': 'Odličan',
+      'fluent': 'Dobar'
+    },
+    'navbar': {
+      'translate-in-en-EN': 'Prevedi na Engleskom',
+      'translate-in-fr-FR': 'Prevedi na Francuskom',
+      'translate-in-hr-HR': 'Prevedi na Hrvatskom',
+      'pdf': 'Dobiti PDF',
+      'translate': 'Prevedi',
+      'en-EN': 'Engleski',
+      'fr-FR': 'Francuski',
+      'hr-HR': 'Hrvatski'
     }
   }
 };
 
-export default (vue, defaultLanguage) => {
+export default (vue) => {
   // Add languages
-  vue.i18n.add('english', translations.english);
-  vue.i18n.add('french', translations.french);
-  // Set default
-  vue.i18n.set(defaultLanguage);
+  vue.i18n.add('en-EN', translations['en-EN']);
+  vue.i18n.add('fr-FR', translations['fr-FR']);
+  vue.i18n.add('hr-HR', translations['hr-HR']);
+  vue.i18n.set('en-EN');
+  return {
+    'languages': ['en-EN', 'fr-FR', 'hr-HR'],
+    'default': 'en-EN'
+  };
 };

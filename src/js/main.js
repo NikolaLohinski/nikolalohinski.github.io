@@ -15,6 +15,8 @@ import I18n from './i18n.js';
 /* 2. Set global directives */
 Vue.use(VueCanvas);
 Vue.use(VueResource);
+// To avoid conflicts between vertical scrolling and vertical swiping.
+VueTouch.config.swipe = { direction: 'horizontal' };
 Vue.use(VueTouch, { name: 'v-touch' });
 // Directive to change **word** into <b>word</b> html
 Vue.directive('embolden', (el, binding) => {
@@ -34,7 +36,7 @@ Vm.store = new VueX.Store(Store);
 // Initialize plugin
 Vue.use(VuexI18n.plugin, Vm.store);
 // The second argument is the default language
-I18n(Vue, 'english');
+global['languageOptions'] = I18n(Vue);
 Vm.store.i18n = Vue.i18n;
 
 /* 5. Create Vue Virtual machine instance */

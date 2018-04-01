@@ -1,8 +1,22 @@
 <template>
-  <div class="sheet">
-    <slot name="content"></slot>
-  </div>
+  <transition name="slide"
+              :enter-class="(transitionMode < 0) ? 'left' : 'right'"
+              :leave-to-class="(transitionMode > 0) ? 'left' : 'right'">
+    <div class="sheet" v-if="transitionMode !== 0">
+      <slot name="content"></slot>
+    </div>
+  </transition>
 </template>
+<script>
+  export default {
+    computed: {
+      transitionMode () {
+        return this.$store.getters.getTransitionMode;
+      }
+    },
+    store: global.store
+  };
+</script>
 <style lang="sass" type="text/scss" rel="stylesheet/scss" scoped>
   @import '../scss/colors';
   @import '../scss/dimensions';
@@ -37,5 +51,15 @@
       border-radius: initial !important;
       box-shadow: initial !important;
     }
+  }
+  .slide-enter-active,
+  .slide-leave-active {
+    transition: transform .2s;
+  }
+  .left {
+    transform: translateX(100vw);
+  }
+  .right {
+    transform: translateX(-100vw);
   }
 </style>

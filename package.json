@@ -22,6 +22,7 @@
   "dependencies": {
     "add-to-homescreen": "^3.2.6",
     "chart.js": "^2.7.2",
+    "flag-icon-css": "^3.0.0",
     "font-awesome": "^4.7.0",
     "inobounce": "^0.1.5",
     "v-offline": "^1.0.4",

@@ -1,5 +1,5 @@
 <template>
-  <div class="root">
+  <v-touch tag="div" class="root" @swipeleft="swipe(1)" @swiperight="swipe(-1)">
     <v-navbar></v-navbar>
     <sheet>
       <div slot="content">
@@ -11,7 +11,7 @@
         <languages></languages>
       </div>
     </sheet>
-  </div>
+  </v-touch>
 </template>
 <script>
   import Sheet from './sheet.vue';
@@ -23,9 +23,25 @@
   import Languages from './languages.vue';
   import Navbar from './navbar.vue';
   export default {
-    data () {
-      return {};
+    methods: {
+      swipe (direction) {
+        const index = this.languageList.indexOf(this.language);
+        const _temp = (index + direction) + this.languageList.length;
+        this.$store.dispatch(
+          'changeLanguage',
+          this.languageList[_temp % this.languageList.length]
+        );
+      }
     },
+    computed: {
+      languageList () {
+        return this.$store.getters.getLanguageList;
+      },
+      language () {
+        return this.$store.getters.getLanguage;
+      }
+    },
+    store: global.store,
     components: {
       Sheet,
       Heading,
@@ -61,15 +77,14 @@
     left: 0;
     width: 100vw;
     height: 100vh;
-    overflow-x: hidden;
     overflow-y: auto;
     @media screen and (max-width: $A4-width),
     screen and (max-device-width: $A4-width) {
       overflow: hidden;
+      background: $paper-background-color;
     }
     font-size: $general-font-size;
     background: $default-background-color;
-    background-size: cover;
     color: $default-font-color;
     font-family: $default-font-family;
   }
