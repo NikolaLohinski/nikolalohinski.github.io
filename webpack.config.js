@@ -66,13 +66,13 @@ module.exports = {
   },
   plugins: [
     new FaviconsWebpackPlugin({
-      logo: './src/img/logo.png',
+      logo: './src/img/logo-niko-dark.png',
       prefix: 'assets/',
       emitStats: false,
       statsFilename: 'assets/[hash].json',
       persistentCache: false,
       inject: true,
-      background: '#2ea6cb',
+      background: '#292929',
       title: 'CV'
     }),
     new HTMLWebpackPlugin({

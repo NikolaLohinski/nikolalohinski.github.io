@@ -223,46 +223,45 @@ const translations = {
     'address': '26 Rue des Changes, 31000 Toulouse FRANCUSKA',
     'github': 'https://github.com/nikolalohinski',
     'datetime': {
-      'april': 'April',
-      'now': 'Trenutno',
-      'january': 'Januar',
-      'december': 'Decembar',
-      'july': 'Jul'
+      'april': 'Travanj',
+      'now': 'Trenutačno',
+      'january': 'Siječanj',
+      'december': 'Prosinac',
+      'july': 'Srpanj'
     },
     'pro-experience': {
       'title': 'Profesionalno iskustvo',
       'thales-avs': {
         'name': 'Thales AVS',
-        'desc-1': 'Poboljšavanje algoritama za **datamining**' +
-        ' i klasteriranja za **otkrivanje anomalije** za vreme leta',
-        'desc-2': 'Uspostavljanje novih metoda za **masovno testiranje** ' +
-        'podataka kako bi se ubrzala validacija proizvoda'
-      },
-      'thales-avionics': {
-        'name': 'Thales Avionics',
-        'desc-1': 'Kreirani **C** i **JavaScript** algoritmi za operacije ' +
-        'i funkcioniranje u zračnoj luci',
-        'desc-2': 'Izrada prototipa kostura aplikacije **AngularJS**'
+        'desc-1': 'Poboljšavanje algoritama za **datamining & clustering** ' +
+        'za otkrivanje poremećaja tijekom leta zrakoplova',
+        'desc-2': 'Utemeljenje novih metoda za **masovno testiranje** podataka ' +
+        'kako bi se ubrzao proces usvajanja novih proizvoda'
       },
       'sfara': {
         'name': 'Sfara Inc.',
-        'desc-1': 'Razvijene usluge i alati za vizualizaciju podataka za korisnički portal uz **Vue.js**',
-        'desc-2': 'Poboljšana obrada podataka na **Python** serverima kroz **Flask** i **Luigi**',
-        'desc-3': 'Ažurirana upotreba zapisnika pomoću **ElasticSearch**, **Kibana** i **Logstash**'
+        'desc-1': 'Razvijanje usluga i alata za uvid u podatke za korisnički portal u **Vue.js**',
+        'desc-2': 'Poboljšana obrada podataka na **Python** serverima putem **Flask** i **Luigi** programa',
+        'desc-3': 'Ažurirano korištenje izviješća sa pomoću **ElasticSearch**, **Kibana** i **Logstash**.'
+      },
+      'thales-avionics': {
+        'name': 'Thales Avionics',
+        'desc-1': 'Izradjeni **C** i **JavaScript** algoritmi za operacije navodjenja u zračnim lukama',
+        'desc-2': 'Izrada strukturnog prototipa programa **AngularJS**'
       },
       'toulouse-france': 'Toulouse, Francuska',
       'new-york-usa': 'New York, SAD',
-      'internship-gap-year': 'Staž - Jaz godina',
+      'internship-gap-year': 'Staž - Izvanfakultetska godina',
       'end-of-course-internship': 'Završni staž'
     },
     'education': {
       'title': 'Obrazovanje',
       'supaero': {
         'name': 'ISAE - Supaéro',
-        'degree': 'Magisterij inženjerske nauke iz Data Science',
+        'degree': 'Magisterij tehničkih znanosti u oblasti Data Science',
         'desc-1': 'Specijalizacija iz **Data Science** i **Data mining** technologijama',
-        'desc-2': 'Slijedio tečaj autonomnih sustava primjenjijno robotici',
-        'desc-3': 'Dizajniranje aplikacije za kombiniranje usluga udaljenog ' +
+        'desc-2': 'Tečaj **autonomnih sustava** u primijenjenoj **robotici**',
+        'desc-3': 'Dizajniranje programa za kombiniranje usluga udaljenog ' +
         'poslužitelja kako bi se osigurala pouzdanost i privatnost podataka na mreži'
       },
       'lycee-parc': {
@@ -289,7 +288,7 @@ const translations = {
         'desc-1': 'Dizajniranje **HTML5** aplikacije za godišnji studentski sportski događaj'
       },
       'music': {
-        'name': 'Musika',
+        'name': 'Muzika',
         'instruments': 'Violina, Klarinet, Gitara'
       },
       'sports': {
@@ -297,8 +296,8 @@ const translations = {
         'sports': 'Odbojka, Stolni tenis'
       },
       'art': {
-        'name': 'Umjetnost',
-        'content': 'Voditelj od školske TV emisije'
+        'name': 'Multimedia',
+        'content': 'Voditelj školske TV emisije'
       }
     },
     'languages': {
@@ -306,9 +305,9 @@ const translations = {
       'french': 'Francuski',
       'english': 'Engleski',
       'croatian': 'Hrvatski',
-      'native-language': 'Materinji jezik',
+      'native-language': 'Maternji jezik',
       'toefl-610': 'TOEFL ITP 610/670',
-      'mother-tongue': 'Materinji jezik',
+      'mother-tongue': 'Maternji jezik',
       'bilingual': 'Dvojezični',
       'confirmed': 'Odličan',
       'fluent': 'Dobar'
@@ -327,13 +326,15 @@ const translations = {
 };
 
 export default (vue) => {
-  // Add languages
-  vue.i18n.add('en-EN', translations['en-EN']);
-  vue.i18n.add('fr-FR', translations['fr-FR']);
-  vue.i18n.add('hr-HR', translations['hr-HR']);
-  vue.i18n.set('en-EN');
+  const languages = Object.keys(translations);
+  const defaultLanguage = languages[0];
+  for (let i = 0; i < languages.length; i++) {
+    const l = languages[i];
+    vue.i18n.add(l, translations[l]);
+  }
+  vue.i18n.set(defaultLanguage);
   return {
-    'languages': ['en-EN', 'fr-FR', 'hr-HR'],
-    'default': 'en-EN'
+    'languages': languages,
+    'default': defaultLanguage
   };
 };
