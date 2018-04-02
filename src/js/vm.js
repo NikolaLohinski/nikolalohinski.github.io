@@ -13,7 +13,7 @@ export default {
   mounted () {
     const userLanguage = navigator.language || navigator.userLanguage;
     this.$store.commit('setLanguageList', global.languageOptions.languages);
-    if (global.languageOptions.languages.includes(userLanguage)) {
+    if (global.languageOptions.languages.indexOf(userLanguage) !== -1) {
       this.$store.commit('setLanguage', userLanguage);
     } else {
       this.$store.commit('setLanguage', global.languageOptions.default);

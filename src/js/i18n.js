@@ -326,7 +326,7 @@ const translations = {
 };
 
 export default (vue) => {
-  const languages = Object.keys(translations);
+  const languages = ['en-EN', 'fr-FR', 'hr-HR'];
   const defaultLanguage = languages[0];
   for (let i = 0; i < languages.length; i++) {
     const l = languages[i];

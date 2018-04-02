@@ -1,4 +1,5 @@
 'use strict';
+if (!Object.assign) Object.assign = require('object.assign').getPolyfill();
 /* 1. Import modules */
 import 'inobounce';
 import Vue from 'vue';

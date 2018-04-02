@@ -6,7 +6,7 @@
              class="item language-selector"
              :title="$t('navbar.translate')"
              href="#">
-      <span class="selector">
+      <span class="selector" :opened="selecting">
         <i class="fa fa-globe"></i>
         {{ language.split('-')[0] }}
       </span>
@@ -94,7 +94,7 @@
         width: 30px;
         background: $logo-no-background 0 10px no-repeat;
         background-size: 30px;
-        &:hover {
+        &:active {
           filter: brightness(0.7);
         }
       }
@@ -103,7 +103,7 @@
         width: 30px;
         text-align: center;
       }
-      &:hover {
+      &:active {
         .selector .fa {
           color: $navbar-font-hover-color;
         }
@@ -115,6 +115,9 @@
           transition: all 200ms;
           margin: auto 5px;
           color: $darker-background-font-color;
+        }
+        &[opened] .fa {
+          color: $navbar-font-hover-color;
         }
       }
       ul {
@@ -144,9 +147,6 @@
           }
           &:active {
             background-color: $lighter-background-color;
-          }
-          &:hover {
-            color: $navbar-font-hover-color;
           }
         }
       }

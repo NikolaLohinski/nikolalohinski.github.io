@@ -41,7 +41,7 @@ export default {
           const oldIndex = state.getters.getLanguageList.indexOf(state.getters.getLanguage);
           const newIndex = state.getters.getLanguageList.indexOf(language);
           let direction = (oldIndex - newIndex) % state.getters.getLanguageList.length;
-          if (![-1, 1].includes(direction)) {
+          if ([-1, 1].indexOf(direction) === -1) {
             direction = (direction > 0) ? -1 : 1;
           }
           state.commit('setTransitionMode', direction);

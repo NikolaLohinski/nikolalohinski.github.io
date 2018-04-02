@@ -15,7 +15,7 @@
         type: String,
         default: 'S',
         validator (size) {
-          return ['S', 'M', 'L'].includes(size);
+          return ['S', 'M', 'L'].indexOf(size) !== -1;
         }
       }
     }
