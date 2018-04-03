@@ -15,7 +15,7 @@
              class="language"
              :key="l"
              :title="$t(`navbar.translate-in-${l}`)"
-             @tap="setLanguage(l)">
+             @tap="setLanguage($event, l)">
           <span :class="`flag-icon flag-icon-${languageToFlag[l]}`">
           </span>
           {{ $t(`navbar.${l}`) }}
@@ -53,8 +53,9 @@
       }
     },
     methods: {
-      setLanguage (language) {
+      setLanguage ($event, language) {
         this.$store.dispatch('changeLanguage', language).then(null);
+        $event.preventDefault();
       }
     }
   };
@@ -144,6 +145,9 @@
           }
           &:first-child {
             border-top: none;
+          }
+          &:last-child {
+            border-radius: 0 0 3px 3px;
           }
           &:active {
             background-color: $lighter-background-color;
