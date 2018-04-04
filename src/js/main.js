@@ -8,6 +8,7 @@ import VueTouch from 'vue-touch';
 import VueCanvas from 'vue-easeljs';
 import VuexI18n from 'vuex-i18n';
 import VueResource from 'vue-resource';
+import '../css/add-to-homescreen.css';
 // Import base agents
 import Store from './store.js';
 import Vm from './vm.js';
