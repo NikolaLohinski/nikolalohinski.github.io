@@ -1,8 +1,11 @@
 <template>
   <div class="navbar">
+    <v-touch tag="div"
+             class="anti-ghost-click" :enable="selecting">
+    </v-touch>
     <a href="." class="item logo" title="Nikola LOHINSKI"></a>
     <v-touch tag="a"
-             @tap="selecting = !selecting"
+             @tap.prevent @tap="open"
              class="item language-selector"
              :title="$t('navbar.translate')"
              href="#">
@@ -55,7 +58,14 @@
     methods: {
       setLanguage ($event, language) {
         this.$store.dispatch('changeLanguage', language).then(null);
-        $event.preventDefault();
+      },
+      open () {
+        (!this.selecting) ? this.selecting = true : this.close();
+      },
+      close () {
+        setTimeout(() => {
+          this.selecting = false;
+        }, 100);
       }
     }
   };
@@ -73,8 +83,22 @@
     left: 0;
     z-index: 5;
     background-color: $darker-background-color;
+    .anti-ghost-click {
+      pointer-events: none;
+      position: fixed;
+      width: 100vw;
+      height: 100vh;
+      left: 0;
+      top: 0;
+      z-index: 1;
+      &[enable] {
+        pointer-events: auto;
+      }
+    }
     @media print { display: none; }
     .item {
+      position: relative;
+      z-index: 2;
       display: inline-block;
       margin: 15px 10px 0 10px;
       height: $nav-height;

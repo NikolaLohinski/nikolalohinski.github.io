@@ -2,14 +2,34 @@
   <transition name="slide"
               :enter-class="(transitionMode < 0) ? 'left' : 'right'"
               :leave-to-class="(transitionMode > 0) ? 'left' : 'right'">
-    <div class="sheet" v-if="transitionMode !== 0">
+    <v-touch tag="div"
+             class="sheet"
+             @swipeleft="swipe(1)"
+             @swiperight="swipe(-1)"
+             v-if="transitionMode !== 0">
       <slot name="content"></slot>
-    </div>
+    </v-touch>
   </transition>
 </template>
 <script>
   export default {
+    methods: {
+      swipe (direction) {
+        const index = this.languageList.indexOf(this.language);
+        const _temp = (index + direction) + this.languageList.length;
+        this.$store.dispatch(
+          'changeLanguage',
+          this.languageList[_temp % this.languageList.length]
+        ).then(null);
+      }
+    },
     computed: {
+      languageList () {
+        return this.$store.getters.getLanguageList;
+      },
+      language () {
+        return this.$store.getters.getLanguage;
+      },
       transitionMode () {
         return this.$store.getters.getTransitionMode;
       }
