@@ -43,7 +43,7 @@
   @import '../scss/colors';
   $icon-size: 18px;
   .heading {
-    margin: 10px 15px 0 15px;
+    margin: 0 15px 5px 15px;
     > * {
       display: inline-block;
     }
@@ -70,6 +70,7 @@
       }
     }
     ul {
+      margin-bottom: 5px;
       list-style: none;
       padding: 0;
       min-width: 250px;

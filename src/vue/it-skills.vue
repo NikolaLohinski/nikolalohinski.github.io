@@ -109,12 +109,11 @@
   .chart-box {
     width: 100%;
     height: 100%;
-    min-height: 250px;
-    margin-top: 25px;
+    min-height: 345px;
+    margin-top: 5px;
     position: relative;
     @media print {
       width: 250px;
-      margin-left: 15dpx;
     }
   }
 </style>

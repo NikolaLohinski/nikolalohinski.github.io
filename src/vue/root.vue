@@ -5,9 +5,9 @@
       <div slot="content">
         <heading></heading>
         <pro-experience></pro-experience>
-        <education></education>
-        <it-skills></it-skills>
         <other></other>
+        <it-skills></it-skills>
+        <education></education>
         <languages></languages>
       </div>
     </sheet>

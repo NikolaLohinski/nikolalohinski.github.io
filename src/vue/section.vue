@@ -25,7 +25,7 @@
   @import '../scss/colors';
   @import '../scss/dimensions';
   .section {
-    margin: 15px 0 0 0;
+    margin: 0;
     display: inline-block;
     vertical-align: top;
     &[size='L'] {

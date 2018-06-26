@@ -42,8 +42,8 @@ const translations = {
       'supaero': {
         'name': 'ISAE - Supaéro',
         'degree': 'Masters of engineering in data science',
-        'desc-1': 'Specialized in **data science** and **data mining** technologies',
-        'desc-2': 'Followed **Autonomous Systems** course applied to **robotics**',
+        'desc-1': '**Data science** and **data mining** specialization',
+        'desc-2': '**Autonomous Systems** course applied to **robotics**',
         'desc-3': 'Designed an app using **erasure codes** to combine public ' +
         'storage services to ensure reliability and privacy of online data'
       },
@@ -71,17 +71,17 @@ const translations = {
         'desc-1': 'Designed an **HTML5** app for an annual student’s ' +
         'sport event'
       },
-      'music': {
-        'name': 'Music',
-        'instruments': 'Violin, Clarinet, Guitar'
+      'ace': {
+        'name': 'ACE - Awesome Coinche Entertainer',
+        'role': 'Responsive cross-platform app',
+        'desc-1': 'Conceived a responsive offline web-app using **VueJS**',
+        'desc-2': 'Developing gaming AIs with **reinforcement learning**'
       },
-      'sports': {
-        'name': 'Sports',
-        'sports': 'Volleyball, Table tennis'
-      },
-      'art': {
-        'name': 'Art',
-        'content': 'Manager of the school\'s TV show'
+      'nebula': {
+        'name': 'Nebula-project',
+        'role': 'Erasure codes for distributed storage',
+        'desc-1': 'Designed an app to ensure security, reliability and privacy ' +
+        'of online content stored on public clouds'
       }
     },
     'languages': {
@@ -153,9 +153,7 @@ const translations = {
         'name': 'ISAE - Supaéro',
         'degree': 'Formation ingénieur en Data Science',
         'desc-1': 'Spécialisation en **science des données** et **Data mining**',
-        'desc-2': 'Domaine **Systèmes Autonomes** en parcours **robotique**',
-        'desc-3': 'Design d\'une app utilisant les **codes à effacement** pour combiner les ' +
-        'services de stockage en ligne avec sécurité et fiabilité des données'
+        'desc-2': 'Domaine **Systèmes Autonomes** en parcours **robotique**'
       },
       'lycee-parc': {
         'name': 'Lycéee du Parc',
@@ -175,22 +173,22 @@ const translations = {
     },
     'other': {
       'title': 'Autres expériences',
+      'ace': {
+        'name': 'ACE - Awesome Coinche Entertainer',
+        'role': 'Application multi-plateformes',
+        'desc-1': 'Conception d’une interface web avec **VueJS**',
+        'desc-2': 'Design d\'intelligences artificielles par **renforcement**'
+      },
+      'nebula': {
+        'name': 'Nebula-project',
+        'role': 'Codes à effacement pour le stockage distribué',
+        'desc-1': 'Travaux sur une interface de clouds publics pour assurer la sécurité,' +
+        ' la fiabilité et l\'accessibilité des données'
+      },
       'as-isae': {
         'name': 'Association sportive de l\'ISAE-Supaéro',
         'role': 'Vice-président',
         'desc-1': 'Création d’une app web **HTML5** pour un évènement sportif annuel'
-      },
-      'music': {
-        'name': 'Musique',
-        'instruments': 'Violon, Clarinette, Guitare'
-      },
-      'sports': {
-        'name': 'Sports',
-        'sports': 'Volley-ball, Tennis de table'
-      },
-      'art': {
-        'name': 'Art',
-        'content': 'Président du Journal Télévisé Supaéro'
       }
     },
     'languages': {
@@ -234,9 +232,9 @@ const translations = {
       'thales-avs': {
         'name': 'Thales AVS',
         'desc-1': 'Poboljšavanje algoritama za **datamining & clustering** ' +
-        'za otkrivanje poremećaja tijekom leta zrakoplova',
+        'za otkrivanje poremećaja',
         'desc-2': 'Utemeljenje novih metoda za **masovno testiranje** podataka ' +
-        'kako bi se ubrzao proces usvajanja novih proizvoda'
+        'kako bi se ubrzali procesi'
       },
       'sfara': {
         'name': 'Sfara Inc.',
@@ -259,10 +257,8 @@ const translations = {
       'supaero': {
         'name': 'ISAE - Supaéro',
         'degree': 'Magisterij tehničkih znanosti u oblasti Data Science',
-        'desc-1': 'Specijalizacija iz **Data Science** i **Data mining** technologijama',
-        'desc-2': 'Tečaj **autonomnih sustava** u primijenjenoj **robotici**',
-        'desc-3': 'Dizajniranje programa za kombiniranje usluga udaljenog ' +
-        'poslužitelja kako bi se osigurala pouzdanost i privatnost podataka na mreži'
+        'desc-1': 'Specijalizacija iz **Data Science** i **Data mining**',
+        'desc-2': 'Tečaj **autonomnih sustava** u primijenjenoj **robotici**'
       },
       'lycee-parc': {
         'name': 'Lycéee du Parc',
@@ -287,17 +283,17 @@ const translations = {
         'role': 'Dopredsjednik',
         'desc-1': 'Dizajniranje **HTML5** aplikacije za godišnji studentski sportski događaj'
       },
-      'music': {
-        'name': 'Muzika',
-        'instruments': 'Violina, Klarinet, Gitara'
+      'ace': {
+        'name': 'ACE - Awesome Coinche Entertainer',
+        'role': 'Internet aplikacija',
+        'desc-1': 'Izrada web sučelja uz **VueJS**',
+        'desc-2': 'Dizajniranje umjetne inteligencije **ojačanjem**'
       },
-      'sports': {
-        'name': 'Sportovi',
-        'sports': 'Odbojka, Stolni tenis'
-      },
-      'art': {
-        'name': 'Multimedia',
-        'content': 'Voditelj školske TV emisije'
+      'nebula': {
+        'name': 'Nebula-project',
+        'role': 'Algorithmi za sigurni udaljeni poslužitelj',
+        'desc-1': 'Dizajniranje programa za kombiniranje usluga udaljenog ' +
+        'poslužitelja kako bi se osigurala privatnost'
       }
     },
     'languages': {

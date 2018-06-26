@@ -9,6 +9,57 @@
     <div slot="content">
       <v-article>
         <span slot="title">
+          <a href="https://nikolalohinski.github.io/ace/">
+            {{ $t('other.ace.name') }}
+          </a>
+        </span>
+        <span slot="sub-title">
+          {{ $t('other.ace.role') }}
+        </span>
+        <span slot="sub-complement">
+          2017 - {{ $t('datetime.now') }}
+        </span>
+        <div slot="bullet-points">
+          <a href="https://nikolalohinski.github.io/ace/">
+            <i class="fa fa-link"></i>
+            https://nikolalohinski.github.io/ace
+          </a>
+          <ul>
+            <li>
+              <span v-embolden="$t('other.ace.desc-1')"></span>
+            </li>
+            <li>
+              <span v-embolden="$t('other.ace.desc-2')"></span>
+            </li>
+          </ul>
+        </div>
+      </v-article>
+      <v-article>
+        <span slot="title">
+          <a href="https://project-nebula.github.io/">
+            {{ $t('other.nebula.name') }}
+          </a>
+        </span>
+        <span slot="sub-title">
+          {{ $t('other.nebula.role') }}
+        </span>
+        <span slot="sub-complement">
+          2016 - 2017
+        </span>
+        <div slot="bullet-points">
+          <a href="https://project-nebula.github.io">
+            <i class="fa fa-link"></i>
+            https://project-nebula.github.io
+          </a>
+          <ul>
+            <li>
+              <span v-embolden="$t('other.nebula.desc-1')"></span>
+            </li>
+          </ul>
+        </div>
+      </v-article>
+      <v-article>
+        <span slot="title">
           <a href="https://www.as-isae.fr/">
             {{ $t('other.as-isae.name') }}
           </a>
@@ -19,26 +70,17 @@
         <span slot="sub-complement">
           2016 - 2017
         </span>
-        <ul slot="bullet-points">
-          <li>
-            <span v-embolden="$t('other.as-isae.desc-1')"></span> :
-            <a href="https://suponts-heros.github.io">
-              https://suponts-heros.github.io
-            </a>
-          </li>
-        </ul>
-      </v-article>
-      <v-article>
-        <span slot="title" size="S">
-          <b>{{ $t('other.music.name') }}</b> :
-          {{ $t('other.music.instruments') }}
-          <br>
-          <b>{{ $t('other.sports.name') }}</b> :
-          {{ $t('other.sports.sports') }}
-          <br>
-          <b>{{ $t('other.art.name') }}</b> :
-          {{ $t('other.art.content') }}
-        </span>
+        <div slot="bullet-points">
+          <a href="https://suponts-heros.github.io">
+            <i class="fa fa-link"></i>
+            https://suponts-heros.github.io
+          </a>
+          <ul>
+            <li>
+              <span v-embolden="$t('other.as-isae.desc-1')"></span>
+            </li>
+          </ul>
+        </div>
       </v-article>
     </div>
   </v-section>

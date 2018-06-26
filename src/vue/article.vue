@@ -53,6 +53,7 @@
     }
     .article-sub-title {
       position: relative;
+      margin-bottom: 5px;
       > div {
         display: inline-block;
       }

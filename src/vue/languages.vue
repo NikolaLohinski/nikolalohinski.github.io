@@ -49,10 +49,10 @@
   @import '../scss/dimensions';
   @import '../scss/colors';
   .languages {
-    margin: 25px auto 15px auto;
+    margin: -10px auto 15px auto;
     .language {
       > td {
-        padding: 5px 0;
+        padding: 15px 0;
         text-align: center;
         &.name {
           width: 20%;

@@ -22,11 +22,6 @@
         <ul slot="bullet-points">
           <li v-embolden="$t('education.supaero.desc-1')"></li>
           <li v-embolden="$t('education.supaero.desc-2')"></li>
-          <li><span v-embolden="$t('education.supaero.desc-3')"></span> :
-            <a href="http://project-nebula.github.io">
-              http://project-nebula.github.io
-            </a>
-          </li>
         </ul>
       </v-article>
       <v-article>
