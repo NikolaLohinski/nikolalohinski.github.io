@@ -2,7 +2,7 @@ const translations = {
   'en-EN': {
     'tel-display': '+33 6 23 93 85 86',
     'tel': '+33623938586',
-    'mail': 'lohinski.nikola@free.fr',
+    'mail': 'nikolalohinski@gmail.com',
     'address': '26 Rue des Changes, 31000 Toulouse FRANCE',
     'github': 'https://github.com/nikolalohinski',
     'datetime': {
@@ -110,7 +110,7 @@ const translations = {
   'fr-FR': {
     'tel-display': '06 23 93 85 86',
     'tel': '+33623938586',
-    'mail': 'lohinski.nikola@free.fr',
+    'mail': 'nikolalohinski@gmail.com',
     'address': '26 Rue des Changes, 31000 Toulouse',
     'github': 'https://github.com/nikolalohinski',
     'datetime': {
@@ -217,7 +217,7 @@ const translations = {
   'hr-HR': {
     'tel-display': '+33 6 23 93 85 86',
     'tel': '+33623938586',
-    'mail': 'lohinski.nikola@free.fr',
+    'mail': 'nikolalohinski@gmail.com',
     'address': '26 Rue des Changes, 31000 Toulouse FRANCUSKA',
     'github': 'https://github.com/nikolalohinski',
     'datetime': {
