@@ -2,6 +2,7 @@ const Webpack = require('webpack');
 const HTMLWebpackPlugin = require('html-webpack-plugin');
 const AppCachePlugin = require('appcache-webpack-plugin');
 const FaviconsWebpackPlugin = require('favicons-webpack-plugin');
+const CopyWebpackPlugin = require('copy-webpack-plugin');
 module.exports = {
   entry: {
     'app.js': './src/js/main.js'
@@ -87,6 +88,9 @@ module.exports = {
       'process.env': {
         NODE_ENV: '"production"'
       }
-    })
+    }),
+    new CopyWebpackPlugin([
+      { from: 'README_master.md', to: 'README.md' }
+    ])
   ]
 };

@@ -20,16 +20,15 @@
         id: Math.round(Math.random() * 1000000),
         chart: null,
         data: [
-          { name: 'HTML5, CSS, JS', level: 4, moreInfo: 'VueJS, Webpack, AngularJS...' },
-          { name: 'NodeJS', level: 4, moreInfo: 'Electron, Express, Laravel-elixir...' },
-          { name: 'Python, R', level: 4, moreInfo: 'SQLAlchemy, Flask, Luigi...' },
-          { name: 'Spark', level: 3, moreInfo: 'PySpark' },
-          { name: 'MongoDB', level: 3, moreInfo: '' },
-          { name: 'PostgreSQL', level: 3, moreInfo: '' },
-          { name: 'DynamoDB / S3', level: 2, moreInfo: '' },
+          { name: 'JS, NodeJS', level: 4, moreInfo: 'VueJS, Webpack, AngularJS, Electron...' },
+          { name: 'HTML5, CSS', level: 4, moreInfo: 'SASS, LESS, offline web-apps...' },
+          { name: 'Python', level: 4, moreInfo: 'PySpark, Flask, Luigi...' },
+          { name: 'Docker', level: 3, moreInfo: '' },
+          { name: 'R', level: 3, moreInfo: '' },
+          { name: 'MongoDB, PgSQL', level: 3, moreInfo: '' },
           { name: 'ElasticSearch', level: 2, moreInfo: 'Kibana, Sense, Logstash' },
           { name: 'JAVA', level: 2, moreInfo: '' },
-          { name: 'C/C++', level: 1, moreInfo: '' }
+          { name: 'C/C++', level: 2, moreInfo: '' }
         ],
         labels: ['beginner', 'basics', 'intermediate', 'experienced', 'expert']
       };
