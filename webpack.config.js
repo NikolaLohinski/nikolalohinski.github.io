@@ -90,7 +90,8 @@ module.exports = {
       }
     }),
     new CopyWebpackPlugin([
-      { from: 'README_master.md', to: 'README.md' }
+      { from: 'README_master.md', to: 'README.md' },
+      { from: 'LICENSE' }
     ])
   ]
 };
