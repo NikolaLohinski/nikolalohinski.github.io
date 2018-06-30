@@ -43,7 +43,7 @@ Vm.store.i18n = Vue.i18n;
 
 /* 5. Create Vue Virtual machine instance */
 // Create Vue machine
-global['vm'] = new Vue(Vm);
+new Vue(Vm);
 
 /* 6. Save store instance globally */
 // Store vuex Store for components to reach out

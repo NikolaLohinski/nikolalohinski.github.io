@@ -15,7 +15,9 @@
   "scripts": {
     "webpack-server": "./node_modules/.bin/webpack-dev-server -d",
     "webpack": "./node_modules/.bin/webpack",
-    "build": "export NODE_ENV=production && npm run webpack -- -p",
+    "phantom": "./node_modules/.bin/phantomjs",
+    "generatePDFs": "npm run phantom produce_pdf.js ./public/index.html ./public/pdf",
+    "build": "export NODE_ENV=production && npm run webpack -- -p && npm run generatePDFs",
     "watch": "npm run webpack -- -w"
   },
   "dependencies": {
@@ -61,5 +63,8 @@
     "vue-template-compiler": "^2.1.10",
     "webpack": "^2.3.3",
     "webpack-dev-server": "^2.4.5"
+  },
+  "config": {
+    "languages": ["fr-FR", "en-EN", "hr-HR"]
   }
 }

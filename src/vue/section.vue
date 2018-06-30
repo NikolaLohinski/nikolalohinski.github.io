@@ -37,9 +37,13 @@
     &[size='S'] {
       width: 39%;
     }
-    @media screen and (max-device-width: $A4-width),
-    screen and (max-width: $A4-width){
-      width: 98% !important;
+    &[size='L'],
+    &[size='M'],
+    &[size='S'] {
+      @media (max-device-width: $A4-width),
+      (max-width: $A4-width) {
+        width: 98%;
+      }
     }
     .title {
       border-bottom: 1px solid $default-border-color;

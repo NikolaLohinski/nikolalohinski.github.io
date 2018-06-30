@@ -53,8 +53,11 @@
     width: $A4-width - 2 * $margin-left-right;
     @media screen and (max-width: $A4-width),
     screen and (max-device-width: $A4-width) {
-      width: 100vw;
-      height: calc(100vh - 90px);
+      position: fixed;
+      top: 10px;
+      left: 0;
+      width: 100%;
+      height: calc(100vh - 115px);
       margin: 0;
       padding: 65px 0 25px 0;
       border-radius: 0;
@@ -67,9 +70,10 @@
       margin: 5px auto;
     }
     @media print {
-      margin: 0 !important;
-      border-radius: initial !important;
-      box-shadow: initial !important;
+      margin: 0;
+      border-radius: initial;
+      box-shadow: initial;
+      background: white;
     }
   }
   .slide-enter-active,

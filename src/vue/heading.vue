@@ -60,15 +60,6 @@
         }
       }
     }
-    @media screen and (max-device-width: $collapse-heading-width),
-        screen and (max-width: $collapse-heading-width){
-      ul {
-        margin: 0;
-         > li {
-          margin: 5px 0 !important;
-        }
-      }
-    }
     ul {
       margin-bottom: 5px;
       list-style: none;
@@ -87,6 +78,15 @@
           i {
             width: $icon-size;
           }
+        }
+      }
+    }
+    @media (max-device-width: $collapse-heading-width),
+        (max-width: $collapse-heading-width){
+      ul {
+        margin: 0;
+         li {
+          margin: 5px 0;
         }
       }
     }
