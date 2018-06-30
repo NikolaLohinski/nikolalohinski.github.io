@@ -18,6 +18,7 @@
     "phantom": "./node_modules/.bin/phantomjs",
     "generatePDFs": "npm run phantom produce_pdf.js ./public/index.html ./public/pdf",
     "build": "export NODE_ENV=production && npm run webpack -- -p && npm run generatePDFs",
+    "publish": "npm run build && bash ./publish.sh",
     "watch": "npm run webpack -- -w"
   },
   "dependencies": {
