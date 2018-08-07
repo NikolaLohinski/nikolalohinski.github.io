@@ -48,7 +48,7 @@ const translations = {
         'storage services to ensure reliability and privacy of online data'
       },
       'lycee-parc': {
-        'name': 'Lycéee du Parc',
+        'name': 'Lycée du Parc',
         'degree': 'Preparatory school MPSI/PSI*',
         'desc-1': 'Competitive examination “Mines-Ponts” **top 3%**'
       }
@@ -156,7 +156,7 @@ const translations = {
         'desc-2': 'Domaine **Systèmes Autonomes** en parcours **robotique**'
       },
       'lycee-parc': {
-        'name': 'Lycéee du Parc',
+        'name': 'Lycée du Parc',
         'degree': 'Classe préparatoire MPSI/PSI*',
         'desc-1': 'Classé **76ème** au Concours Commun Mines-Ponts'
       }
@@ -261,7 +261,7 @@ const translations = {
         'desc-2': 'Tečaj **autonomnih sustava** u primijenjenoj **robotici**'
       },
       'lycee-parc': {
-        'name': 'Lycéee du Parc',
+        'name': 'Lycée du Parc',
         'degree': 'Pripremna škola MPSI/PSI*',
         'desc-1': 'Natjecateljski ispit “Mines-Ponts” **top 3%**'
       }
