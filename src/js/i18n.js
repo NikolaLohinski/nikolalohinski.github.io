@@ -10,6 +10,7 @@ const translations = {
       'now': 'Current',
       'january': 'January',
       'december': 'December',
+      'october': 'October',
       'july': 'July'
     },
     'pro-experience': {
@@ -32,10 +33,17 @@ const translations = {
         'desc-2': 'Enhanced remote data storage and processing on **Python** servers through **Flask** and **Luigi**',
         'desc-3': 'Improved log handling using **ElasticSearch**, **Kibana** and **Logstash**'
       },
+      'stack-labs': {
+        'name': 'Stack-Labs',
+        'desc-1': 'Worked on several projects based on **Kubernetes** and deployed to **Google Cloud Platform**',
+        'desc-2': 'Enhanced several existing **Golang** back-end micro services and prototyped new ones',
+        'desc-3': 'Developed dev-ops pipelines through automated tools such as **Gitlab**'
+      },
       'toulouse-france': 'Toulouse, France',
       'new-york-usa': 'New York, USA',
       'internship-gap-year': 'Internship - Gap year',
-      'end-of-course-internship': 'End-of-course internship'
+      'end-of-course-internship': 'End-of-course internship',
+      'full-time': 'Full time position'
     },
     'education': {
       'title': 'Education',
@@ -64,12 +72,17 @@ const translations = {
       }
     },
     'other': {
-      'title': 'Other experiences',
+      'title': 'Other',
       'as-isae': {
         'name': 'ISAE - Supaéro students sports organization',
         'role': 'Vice-president',
         'desc-1': 'Designed an **HTML5** app for an annual student’s ' +
         'sport event'
+      },
+      'google-cloud-architect': {
+        'name': 'Google Cloud Architect',
+        'role': 'Certification',
+        'link': 'Link to online diploma'
       },
       'ace': {
         'name': 'ACE - Awesome Coinche Entertainer',
@@ -118,7 +131,8 @@ const translations = {
       'january': 'Janvier',
       'july': 'Juillet',
       'december': 'Décembre',
-      'now': 'Actuellement'
+      'now': 'Actuellement',
+      'october': 'Octobre'
     },
     'pro-experience': {
       'title': 'Expérience',
@@ -142,10 +156,17 @@ const translations = {
         'desc-3': 'Amélioration en utilisant **ElasticSearch**, **Kibana** et **Logstash** de la gestion des ' +
         'évènements serveur'
       },
+      'stack-labs': {
+        'name': 'Stack-Labs',
+        'desc-1': 'Déploiement de cluster **Kubernetes** sur **Google Cloud Platform** pour différents projets',
+        'desc-2': 'Implémentation et amélioration de nombreux micro-services en **Golang**',
+        'desc-3': 'Automatisation de tâches de développement via **Gitlab**'
+      },
       'new-york-usa': 'New York, USA',
       'toulouse-france': 'Toulouse',
       'internship-gap-year': 'Stage - Césure',
-      'end-of-course-internship': 'Stage de fin d\'études'
+      'end-of-course-internship': 'Stage de fin d\'études',
+      'full-time': 'C.D.I'
     },
     'education': {
       'title': 'Formation',
@@ -172,7 +193,7 @@ const translations = {
       }
     },
     'other': {
-      'title': 'Autres expériences',
+      'title': 'Autres',
       'ace': {
         'name': 'ACE - Awesome Coinche Entertainer',
         'role': 'Application multi-plateformes',
@@ -189,6 +210,11 @@ const translations = {
         'name': 'Association sportive de l\'ISAE-Supaéro',
         'role': 'Vice-président',
         'desc-1': 'Création d’une app web **HTML5** pour un évènement sportif annuel'
+      },
+      'google-cloud-architect': {
+        'name': 'Architecte Google Cloud',
+        'role': 'Certification',
+        'link': 'Lien vers le diplôme'
       }
     },
     'languages': {
@@ -213,7 +239,7 @@ const translations = {
       'fr-FR': 'Français',
       'hr-HR': 'Croate'
     }
-  },
+  }/*,
   'hr-HR': {
     'tel-display': '+33 6 23 93 85 86',
     'tel': '+33623938586',
@@ -318,11 +344,11 @@ const translations = {
       'fr-FR': 'Francuski',
       'hr-HR': 'Hrvatski'
     }
-  }
+  }*/
 };
 
 export default (vue) => {
-  const languages = ['en-EN', 'fr-FR', 'hr-HR'];
+  const languages = ['en-EN', 'fr-FR'/*, 'hr-HR'*/];
   const defaultLanguage = languages[0];
   for (let i = 0; i < languages.length; i++) {
     const l = languages[i];

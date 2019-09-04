@@ -16,7 +16,7 @@
     "webpack-server": "./node_modules/.bin/webpack-dev-server -d",
     "webpack": "./node_modules/.bin/webpack",
     "phantom": "./node_modules/.bin/phantomjs",
-    "generatePDFs": "npm run phantom produce_pdf.js ./public/index.html ./public/pdf",
+    "generatePDFs": "npm run phantom -- produce_pdf.js ./public/index.html ./public/pdf",
     "build": "export NODE_ENV=production && npm run webpack -- -p && npm run generatePDFs",
     "publish": "npm run build && bash ./publish.sh",
     "watch": "npm run webpack -- -w"
@@ -66,6 +66,9 @@
     "webpack-dev-server": "^2.4.5"
   },
   "config": {
-    "languages": ["fr-FR", "en-EN", "hr-HR"]
+    "languages": [
+      "fr-FR",
+      "en-EN"
+    ]
   }
 }

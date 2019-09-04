@@ -9,6 +9,27 @@
     <div slot="content">
       <v-article>
         <span slot="title">
+          <a href="https://www.stack-labs.com/">
+            {{ $t('pro-experience.stack-labs.name') }}
+          </a>
+        </span>
+        <span slot="title-complement">
+          {{ $t('pro-experience.toulouse-france') }}
+        </span>
+        <span slot="sub-title">
+          {{ $t('pro-experience.full-time') }}
+        </span>
+        <span slot="sub-complement">
+          {{ $t('datetime.october') }} 2018 - {{ $t('datetime.now') }}
+        </span>
+        <ul slot="bullet-points">
+          <li v-embolden="$t('pro-experience.stack-labs.desc-1')"></li>
+          <li v-embolden="$t('pro-experience.stack-labs.desc-2')"></li>
+          <li v-embolden="$t('pro-experience.stack-labs.desc-3')"></li>
+        </ul>
+      </v-article>
+      <v-article>
+        <span slot="title">
           <a href="https://www.thalesgroup.com/">
             {{ $t('pro-experience.thales-avs.name') }}
           </a>
@@ -20,7 +41,7 @@
           {{ $t('pro-experience.end-of-course-internship') }}
         </span>
         <span slot="sub-complement">
-          {{ $t('datetime.april') }} 2018 - {{ $t('datetime.now') }}
+          {{ $t('datetime.april') }} 2018 - {{ $t('datetime.october') }} 2018
         </span>
         <ul slot="bullet-points">
           <li v-embolden="$t('pro-experience.thales-avs.desc-1')"></li>
@@ -46,26 +67,6 @@
           <li v-embolden="$t('pro-experience.sfara.desc-1')"></li>
           <li v-embolden="$t('pro-experience.sfara.desc-2')"></li>
           <li v-embolden="$t('pro-experience.sfara.desc-3')"></li>
-        </ul>
-      </v-article>
-      <v-article>
-        <span slot="title">
-          <a href="https://www.thalesgroup.com/">
-            {{ $t('pro-experience.thales-avionics.name') }}
-          </a>
-        </span>
-        <span slot="title-complement">
-          {{ $t('pro-experience.toulouse-france') }}
-        </span>
-        <span slot="sub-title">
-          {{ $t('pro-experience.internship-gap-year') }}
-        </span>
-        <span slot="sub-complement">
-          {{ $t('datetime.july') }} 2016 - {{ $t('datetime.december') }} 2016
-        </span>
-        <ul slot="bullet-points">
-          <li v-embolden="$t('pro-experience.thales-avionics.desc-1')"></li>
-          <li v-embolden="$t('pro-experience.thales-avionics.desc-2')"></li>
         </ul>
       </v-article>
     </div>

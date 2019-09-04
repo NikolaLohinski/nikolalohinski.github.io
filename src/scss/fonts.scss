@@ -17,7 +17,7 @@ $flag-icon-square-path: '/1x1' !default;
 @include flag-icon(gb);
 @include flag-icon(fr);
 @include flag-icon(hr);
-@import '../../node_modules/flag-icon-css/sass/flag-icon-more';
+@import '../../node_modules/flag-icon-css/sass/flag-icon';
 
 .fa.fa-link {
   transform: scale(0.75);

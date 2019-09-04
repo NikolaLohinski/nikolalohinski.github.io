@@ -20,15 +20,14 @@
         id: Math.round(Math.random() * 1000000),
         chart: null,
         data: [
-          { name: 'JS, NodeJS', level: 4, moreInfo: 'VueJS, Webpack, AngularJS, Electron...' },
-          { name: 'HTML5, CSS', level: 4, moreInfo: 'SASS, LESS, offline web-apps...' },
+          { name: 'Golang', level: 4, moreInfo: '' },
+          { name: 'JS, NodeJS', level: 4, moreInfo: 'VueJS, Webpack, WebAssembly, Electron...' },
           { name: 'Python', level: 4, moreInfo: 'PySpark, Flask, Luigi...' },
-          { name: 'Docker', level: 3, moreInfo: '' },
-          { name: 'R', level: 3, moreInfo: '' },
+          { name: 'Docker', level: 3, moreInfo: 'With Kubernetes, Docker-compose' },
+          { name: 'ElasticSearch', level: 3, moreInfo: '' },
           { name: 'MongoDB, PgSQL', level: 3, moreInfo: '' },
-          { name: 'ElasticSearch', level: 2, moreInfo: 'Kibana, Sense, Logstash' },
-          { name: 'JAVA', level: 2, moreInfo: '' },
-          { name: 'C/C++', level: 2, moreInfo: '' }
+          { name: 'Rust', level: 2, moreInfo: '' },
+          { name: 'C++, Java', level: 1, moreInfo: '' }
         ],
         labels: ['beginner', 'basics', 'intermediate', 'experienced', 'expert']
       };
@@ -106,10 +105,10 @@
 <style lang="sass" type="text/scss" rel="stylesheet/scss" scoped>
   @import '../scss/fonts';
   .chart-box {
-    min-height: 345px;
+    min-height: 315px;
     margin-top: 5px;
     position: relative;
     width: 235px;
-    height: 345px;
+    height: 315px;
   }
 </style>
