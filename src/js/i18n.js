@@ -239,7 +239,7 @@ const translations = {
       'fr-FR': 'Français',
       'hr-HR': 'Croate'
     }
-  }/*,
+  },
   'hr-HR': {
     'tel-display': '+33 6 23 93 85 86',
     'tel': '+33623938586',
@@ -251,7 +251,8 @@ const translations = {
       'now': 'Trenutačno',
       'january': 'Siječanj',
       'december': 'Prosinac',
-      'july': 'Srpanj'
+      'july': 'Srpanj',
+      'october': 'Listopad'
     },
     'pro-experience': {
       'title': 'Profesionalno iskustvo',
@@ -273,10 +274,17 @@ const translations = {
         'desc-1': 'Izradjeni **C** i **JavaScript** algoritmi za operacije navodjenja u zračnim lukama',
         'desc-2': 'Izrada strukturnog prototipa programa **AngularJS**'
       },
+      'stack-labs': {
+        'name': 'Stack-Labs',
+        'desc-1': 'Razvoj **Kuberneteskog** klustera na **Google Cloud Platformi** za različite projekte',
+        'desc-2': 'Izrada i poboljšanje od više **Golang** mikro programa',
+        'desc-3': 'Automatizacija od različita rada kroz **Gitlab**'
+      },
       'toulouse-france': 'Toulouse, Francuska',
       'new-york-usa': 'New York, SAD',
       'internship-gap-year': 'Staž - Izvanfakultetska godina',
-      'end-of-course-internship': 'Završni staž'
+      'end-of-course-internship': 'Završni staž',
+      'full-time': 'Zaposlen'
     },
     'education': {
       'title': 'Obrazovanje',
@@ -308,6 +316,11 @@ const translations = {
         'name': 'ISAE - Supaéro studentska sportska organizacija',
         'role': 'Dopredsjednik',
         'desc-1': 'Dizajniranje **HTML5** aplikacije za godišnji studentski sportski događaj'
+      },
+      'google-cloud-architect': {
+        'name': 'Google Cloud Arckitekt',
+        'role': 'Certifikacija',
+        'link': 'Hiperlink do potvrde'
       },
       'ace': {
         'name': 'ACE - Awesome Coinche Entertainer',
@@ -344,11 +357,11 @@ const translations = {
       'fr-FR': 'Francuski',
       'hr-HR': 'Hrvatski'
     }
-  }*/
+  }
 };
 
 export default (vue) => {
-  const languages = ['en-EN', 'fr-FR'/*, 'hr-HR'*/];
+  const languages = ['en-EN', 'fr-FR', 'hr-HR'];
   const defaultLanguage = languages[0];
   for (let i = 0; i < languages.length; i++) {
     const l = languages[i];

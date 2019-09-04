@@ -67,7 +67,8 @@
   "config": {
     "languages": [
       "fr-FR",
-      "en-EN"
+      "en-EN",
+      "hr-HR"
     ]
   }
 }
