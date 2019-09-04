@@ -5,7 +5,6 @@ import 'inobounce';
 import Vue from 'vue';
 import VueX from 'vuex';
 import VueTouch from 'vue-touch';
-import VueCanvas from 'vue-easeljs';
 import VuexI18n from 'vuex-i18n';
 import VueResource from 'vue-resource';
 import '../css/add-to-homescreen.css';
@@ -15,7 +14,6 @@ import Vm from './vm.js';
 import I18n from './i18n.js';
 
 /* 2. Set global directives */
-Vue.use(VueCanvas);
 Vue.use(VueResource);
 // To avoid conflicts between vertical scrolling and vertical swiping.
 VueTouch.config.swipe = { direction: 'horizontal' };
