@@ -158,7 +158,7 @@ const translations = {
       },
       'stack-labs': {
         'name': 'Stack-Labs',
-        'desc-1': 'Déploiement de cluster **Kubernetes** sur **Google Cloud Platform** pour différents projets',
+        'desc-1': 'Déploiement de clusters **Kubernetes** sur **Google Cloud Platform** pour différents projets',
         'desc-2': 'Implémentation et amélioration de nombreux micro-services en **Golang**',
         'desc-3': 'Automatisation de tâches de développement via **Gitlab**'
       },
