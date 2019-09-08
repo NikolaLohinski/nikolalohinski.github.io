@@ -25,6 +25,10 @@ module.exports = {
         loader: 'eslint-loader'
       },
       {
+        test: /\.yaml$/,
+        use: 'js-yaml-loader',
+      },
+      {
         test: /\.css$/,
         loader: 'style-loader!css-loader'
       },

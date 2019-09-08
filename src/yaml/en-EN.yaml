@@ -1,0 +1,121 @@
+tel-display: +33 6 23 93 85 86
+tel: +33623938586
+mail: nikolalohinski@gmail.com
+address: 26 Rue des Changes, 31000 Toulouse FRANCE
+github: https://github.com/nikolalohinski
+datetime:
+  april: April
+  now: Current
+  january: January
+  december: December
+  october: October
+  july: July
+pro-experience:
+  title: Professional experience
+  thales-avs:
+    name: Thales AVS
+    desc-1: >
+      Enhancing and industrializing **datamining** and clustering algorithms
+      for flight **anomaly detection**
+    desc-2: >
+      Establishing new methods for **massive testing** on flight data to accelerate
+      product validation
+  thales-avionics:
+    name: Thales Avionics
+    desc-1: >
+      Improved **C** and **JavaScript** taxirouting algorithms for airport
+      operation functions
+    desc-2: >
+      Prototyped an **AngularJS** app skeleton
+  sfara:
+    name: Sfara Inc.
+    desc-1: >
+      Developed front-end web services and data visualization tools for a
+      user portal using **Vue.js**
+    desc-2: >
+      Enhanced remote data storage and processing on **Python** servers through
+      **Flask** and **Luigi**
+    desc-3: >
+      Improved log handling using **ElasticSearch**, **Kibana** and **Logstash**
+  stack-labs:
+    name: Stack-Labs
+    desc-1: >
+      Worked on several projects based on **Kubernetes** and deployed to
+      **Google Cloud Platform**
+    desc-2: >
+      Enhanced several existing **Golang** back-end micro services and
+      prototyped new ones
+    desc-3: Developed dev-ops pipelines through automated tools such as **Gitlab**
+  toulouse-france: Toulouse, France
+  new-york-usa: New York, USA
+  internship-gap-year: Internship - Gap year
+  end-of-course-internship: End-of-course internship
+  full-time: Full time position
+education:
+  title: Education
+  supaero:
+    name: ISAE - Supaéro
+    degree: Masters of engineering in data science
+    desc-1: >
+      **Data science** and **data mining** specialization
+    desc-2: >
+      **Autonomous Systems** course applied to **robotics**
+    desc-3: >
+      Designed an app using **erasure codes** to combine public storage services
+      to ensure reliability and privacy of online data
+  lycee-parc:
+    name: Lycée du Parc
+    degree: Preparatory school MPSI/PSI*
+    desc-1: Competitive examination “Mines-Ponts” **top 3%**
+it-skills:
+  title: IT Skills
+  labels:
+    beginner: Beginner
+    basics: Basics
+    intermediate: Intermediate
+    experienced: Experienced
+    expert: Expert
+other:
+  title: Other
+  as-isae:
+    name: ISAE - Supaéro students sports organization
+    role: Vice-president
+    desc-1: >
+      Designed an **HTML5** app for an annual student’s sport event
+  google-cloud-architect:
+    name: Google Cloud Architect
+    role: Certification
+    link: Link to online diploma
+  ace:
+    name: ACE - Awesome Coinche Entertainer
+    role: Responsive cross-platform app
+    desc-1: >
+      Conceived a responsive offline web-app using **VueJS**
+    desc-2: >
+      Developing gaming AIs with **reinforcement learning**
+  nebula:
+    name: Nebula-project
+    role: Erasure codes for distributed storage
+    desc-1: >
+      Designed an app to ensure security, reliability and privacy of online
+      content stored on public clouds
+languages:
+  title: Languages
+  french: French
+  english: English
+  croatian: Croatian
+  native-language: Native language
+  toefl-610: TOEFL ITP 610/670
+  mother-tongue: Mother tongue
+  bilingual: Binlingual
+  confirmed: Work experienced
+  fluent: Fluent
+navbar:
+  translate-in-en-EN: Translate in English
+  translate-in-fr-FR: Translate in French
+  translate-in-hr-HR: Translate in Croatian
+  pdf: Get a PDF
+  translate: Translate
+  en-EN: Enlgish
+  fr-FR: French
+  hr-HR: Croatian

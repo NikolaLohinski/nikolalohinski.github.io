@@ -1,0 +1,120 @@
+tel-display: 06 23 93 85 86
+tel: +33623938586
+mail: nikolalohinski@gmail.com
+address: 26 Rue des Changes, 31000 Toulouse
+github: https://github.com/nikolalohinski
+datetime:
+  april: Avril
+  january: Janvier
+  july: Juillet
+  december: Décembre
+  now: Actuellement
+  october: Octobre
+pro-experience:
+  title: Expérience
+  thales-avs:
+    name: Thales AVS
+    desc-1: >
+      Industrialisation d"outils de **datamining** pour la **détection d"anomalies**
+      sur des trajectoires de vol
+    desc-2: >
+      Création de nouvelles **suites de tests** sur données avion pour accélerer
+      la validation produit
+  thales-avionics:
+    name: Thales Avionics
+    desc-1: >
+      Amélioration d’algorithmes en langage **C** et **JavaScript** pour la
+      navigation aéroportuaire
+    desc-2: >
+      Prototypage d’un squelette d’application **AngularJS**
+  sfara:
+    name: Sfara Inc.
+    desc-1: >
+      Développement "front-end" de moyens de visualisation de données en utilisant
+      **Vue.js**
+    desc-2: >
+      Amélioration des processus de traitement de données côté serveur **Python**
+      à l"aide de **Flask** et **Luigi**
+    desc-3: >
+      Amélioration en utilisant **ElasticSearch**, **Kibana** et **Logstash**
+      de la gestion des évènements serveur
+  stack-labs:
+    name: Stack-Labs
+    desc-1: >
+      Déploiement de clusters **Kubernetes** sur **Google Cloud Platform**
+      pour différents projets
+    desc-2: >
+      Implémentation et amélioration de nombreux micro-services en **Golang**
+    desc-3: >
+      Automatisation de tâches de développement via **Gitlab**
+  new-york-usa: New York, USA
+  toulouse-france: Toulouse
+  internship-gap-year: Stage - Césure
+  end-of-course-internship: Stage de fin d"études
+  full-time: C.D.I
+education:
+  title: Formation
+  supaero:
+    name: ISAE - Supaéro
+    degree: Formation ingénieur en Data Science
+    desc-1: >
+      Spécialisation en **science des données** et **Data mining**
+    desc-2: >
+      Domaine **Systèmes Autonomes** en parcours **robotique**
+  lycee-parc:
+    name: Lycée du Parc
+    degree: Classe préparatoire MPSI/PSI*
+    desc-1: >
+      Classé **76ème** au Concours Commun Mines-Ponts
+it-skills:
+  title: Informatique
+  labels:
+    beginner: Débutant
+    basics: Initié
+    intermediate: Intermédiaire
+    experienced: Confirmé
+    expert: Avancé
+other:
+  title: Autres
+  ace:
+    name: ACE - Awesome Coinche Entertainer
+    role: Application multi-plateformes
+    desc-1: >
+      Conception d’une interface web avec **VueJS**
+    desc-2: >
+      Design d"intelligences artificielles par **renforcement**
+  nebula:
+    name: Nebula-project
+    role: Codes à effacement pour le stockage distribué
+    desc-1: >
+      Travaux sur une interface de clouds publics pour assurer la sécurité,
+      la fiabilité et l"accessibilité des données
+  as-isae:
+    name: Association sportive de l"ISAE-Supaéro
+    role: Vice-président
+    desc-1: >
+      Création d’une app web **HTML5** pour un évènement sportif annuel
+  google-cloud-architect:
+    name: Architecte Google Cloud
+    role: Certification
+    link: Lien vers le diplôme
+languages:
+  title: Langues
+  french: Français
+  english: Anglais
+  croatian: Croate
+  native-language: Langue natale
+  toefl-610: TOEFL ITP 610/670
+  mother-tongue: Langue maternelle
+  bilingual: Bilingue
+  confirmed: Confirmé
+  fluent: Courant
+navbar:
+  translate-in-french: Traduire en Français
+  translate-in-en-EN: Traduire en Anglais
+  translate-in-hr-HR: Traduire en Croate
+  pdf: Obtenir un PDF
+  translate: Traduire
+  en-EN: Anglais
+  fr-FR: Français
+  hr-HR: Croate
