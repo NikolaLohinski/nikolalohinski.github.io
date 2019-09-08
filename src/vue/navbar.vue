@@ -3,7 +3,9 @@
     <v-touch tag="div"
              class="anti-ghost-click" :enable="selecting">
     </v-touch>
-    <a href="." class="item logo" title="Nikola LOHINSKI"></a>
+    <a href="." class="item logo" title="Nikola LOHINSKI">
+      Curriculm Vitæ
+    </a>
     <v-touch tag="a"
              @tap.prevent @tap="open"
              class="item language-selector"
@@ -72,7 +74,6 @@
 </script>
 <style lang="sass" type="text/scss" rel="stylesheet/scss" scoped>
   @import '../scss/colors';
-  @import '../scss/images';
   @import '../scss/dimensions';
   $nav-height: 45px;
   .navbar {
@@ -114,14 +115,9 @@
       &.logo {
         position: absolute;
         left: 50%;
-        margin-left: -15px;
-        margin-top: 12px;
-        width: 30px;
-        background: $logo-no-background 0 10px no-repeat;
-        background-size: 30px;
-        &:active {
-          filter: brightness(0.7);
-        }
+        margin-left: 0;
+        margin-top: 15px;
+        transform: translate(-50%, 0);
       }
       &.pdf {
         float: right;
