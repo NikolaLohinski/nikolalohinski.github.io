@@ -15,7 +15,7 @@ pro-experience:
   thales-avs:
     name: Thales AVS
     desc-1: >
-      Industrialisation d"outils de **datamining** pour la **détection d"anomalies**
+      Industrialisation d'outils de **datamining** pour la **détection d'anomalies**
       sur des trajectoires de vol
     desc-2: >
       Création de nouvelles **suites de tests** sur données avion pour accélerer
@@ -33,8 +33,8 @@ pro-experience:
       Développement "front-end" de moyens de visualisation de données en utilisant
       **Vue.js**
     desc-2: >
-      Amélioration des processus de traitement de données côté serveur **Python**
-      à l"aide de **Flask** et **Luigi**
+      Amélioration du traitement de données côté serveur **Python**
+      à l'aide de **Flask** et **Luigi**
     desc-3: >
       Amélioration en utilisant **ElasticSearch**, **Kibana** et **Logstash**
       de la gestion des évènements serveur
@@ -50,7 +50,7 @@ pro-experience:
   new-york-usa: New York, USA
   toulouse-france: Toulouse
   internship-gap-year: Stage - Césure
-  end-of-course-internship: Stage de fin d"études
+  end-of-course-internship: Stage de fin d'études
   full-time: C.D.I
 education:
   title: Formation
@@ -82,15 +82,15 @@ other:
     desc-1: >
       Conception d’une interface web avec **VueJS**
     desc-2: >
-      Design d"intelligences artificielles par **renforcement**
+      Design d'intelligences artificielles par **renforcement**
   nebula:
     name: Nebula-project
     role: Codes à effacement pour le stockage distribué
     desc-1: >
       Travaux sur une interface de clouds publics pour assurer la sécurité,
-      la fiabilité et l"accessibilité des données
+      la fiabilité et l'accessibilité des données
   as-isae:
-    name: Association sportive de l"ISAE-Supaéro
+    name: Association sportive de l'ISAE-Supaéro
     role: Vice-président
     desc-1: >
       Création d’une app web **HTML5** pour un évènement sportif annuel
