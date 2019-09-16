@@ -4,7 +4,7 @@
              class="anti-ghost-click" :enable="selecting">
     </v-touch>
     <a href="." class="item logo" title="Nikola LOHINSKI">
-      Curriculm Vitæ
+      {{ $t("navbar.curriculum-vitae") }}
     </a>
     <v-touch tag="a"
              @tap.prevent @tap="open"
