@@ -47,7 +47,7 @@
     margin: 65px auto 15px auto;
     box-shadow: 0 0 0.5cm rgba(0,0,0,0.5);
     border-radius: 3px;
-    overflow: hidden;
+    overflow: visible;
     padding: $margin-top-bottom $margin-top-bottom;
     height: $A4-height - 2 * $margin-top-bottom;
     width: $A4-width - 2 * $margin-left-right;

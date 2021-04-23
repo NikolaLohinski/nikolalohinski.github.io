@@ -1,7 +1,7 @@
 tel-display: +33 6 23 93 85 86
 tel: +33623938586
 mail: nikolalohinski@gmail.com
-address: 26 Rue des Changes, 31000 Toulouse FRANCE
+address: 14 Allées Paul Sabatier, 31000 Toulouse FRANCE
 github: https://github.com/nikolalohinski
 datetime:
   april: April
@@ -46,6 +46,13 @@ pro-experience:
       Enhanced several existing **Golang** back-end micro services and
       prototyped new ones
     desc-3: Developed dev-ops pipelines through automated tools such as **Gitlab**
+    desc-4: >
+      Experience with **TDD** approach for implementing **REST** distributed backend services
+    desc-5: >
+      Enforced integration testing routines in a **CI** environment using **Cypress**
+    desc-6: >
+      Developed a **Redis** caching and multi-project **Firebase** authentication system for a 
+      **Python** server running on **Dash** (wrapper around **Flask**)
   toulouse-france: Toulouse, France
   new-york-usa: New York, USA
   internship-gap-year: Internship - Gap year
@@ -77,6 +84,9 @@ it-skills:
     expert: Expert
 other:
   title: Other
+  istio:
+    name: Istio Workshop
+    role: Creation and presentation during conferences
   as-isae:
     name: ISAE - Supaéro students sports organization
     role: Vice-president
@@ -91,14 +101,6 @@ other:
     role: Responsive cross-platform app
     desc-1: >
       Conceived a responsive offline web-app using **VueJS**
-    desc-2: >
-      Developing gaming AIs with **reinforcement learning**
-  nebula:
-    name: Nebula-project
-    role: Erasure codes for distributed storage
-    desc-1: >
-      Designed an app to ensure security, reliability and privacy of online
-      content stored on public clouds
 languages:
   title: Languages
   french: French

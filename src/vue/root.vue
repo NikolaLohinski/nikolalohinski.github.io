@@ -68,6 +68,9 @@
       overflow-y: hidden;
       -webkit-overflow-scrolling:initial;
       background: white;
+      > div {
+        margin-top: -.3cm;
+      }
     }
   }
 </style>

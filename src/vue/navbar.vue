@@ -42,8 +42,8 @@
       return {
         languageToFlag: {
           'fr-FR': 'fr',
-          'en-EN': 'gb',
-          'hr-HR': 'hr'
+          'en-EN': 'gb'
+          // 'hr-HR': 'hr'
         },
         selecting: false
       };

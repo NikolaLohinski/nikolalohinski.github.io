@@ -26,6 +26,9 @@
           <li v-embolden="$t('pro-experience.stack-labs.desc-1')"></li>
           <li v-embolden="$t('pro-experience.stack-labs.desc-2')"></li>
           <li v-embolden="$t('pro-experience.stack-labs.desc-3')"></li>
+          <li v-embolden="$t('pro-experience.stack-labs.desc-4')"></li>
+          <li v-embolden="$t('pro-experience.stack-labs.desc-5')"></li>
+          <li v-embolden="$t('pro-experience.stack-labs.desc-6')"></li>
         </ul>
       </v-article>
       <v-article>

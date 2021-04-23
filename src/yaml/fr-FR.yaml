@@ -1,7 +1,7 @@
 tel-display: 06 23 93 85 86
 tel: +33623938586
 mail: nikolalohinski@gmail.com
-address: 26 Rue des Changes, 31000 Toulouse
+address: 14 Allées Paul Sabatier, 31000 Toulouse
 github: https://github.com/nikolalohinski
 datetime:
   april: Avril
@@ -46,7 +46,14 @@ pro-experience:
     desc-2: >
       Implémentation et amélioration de nombreux micro-services en **Golang**
     desc-3: >
-      Automatisation de tâches de développement via **Gitlab**
+      Automatisation de tâches de vérification, compilation et déploiement via **Gitlab CI/CD**
+    desc-4: >
+      Travaux d'implémentation en méthodologie **TDD** de services **REST** pour un backend distribué 
+    desc-5: >
+      Mise en place de politiques des tests d'intégration automatisés en **CI** à l'aide de **Cypress**
+    desc-6: >
+      Développement d'un système de caching avec **Redis** et d'authentification multi-projet se basant sur **Firebase**
+      pour un serveur **Python** utilisant **Dash** (surcouche à **Flask**)
   new-york-usa: New York, USA
   toulouse-france: Toulouse
   internship-gap-year: Stage - Césure
@@ -83,12 +90,9 @@ other:
       Conception d’une interface web avec **VueJS**
     desc-2: >
       Design d'intelligences artificielles par **renforcement**
-  nebula:
-    name: Nebula-project
-    role: Codes à effacement pour le stockage distribué
-    desc-1: >
-      Travaux sur une interface de clouds publics pour assurer la sécurité,
-      la fiabilité et l'accessibilité des données
+  istio:
+    name: Workshop Istio
+    role: Création & présentation en conférences
   as-isae:
     name: Association sportive de l'ISAE-Supaéro
     role: Vice-président

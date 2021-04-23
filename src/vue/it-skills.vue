@@ -20,14 +20,13 @@
         id: Math.round(Math.random() * 1000000),
         chart: null,
         data: [
-          { name: 'Golang', level: 4, moreInfo: '' },
+          { name: 'Golang, Python', level: 4, moreInfo: 'Flask, Dash' },
           { name: 'JS, NodeJS', level: 4, moreInfo: 'VueJS, Webpack, WebAssembly, Electron...' },
-          { name: 'Python', level: 4, moreInfo: 'PySpark, Flask, Luigi...' },
-          { name: 'Docker', level: 3, moreInfo: 'With Kubernetes, Docker-compose' },
+          { name: 'Terraform', level: 4, moreInfo: '' },
+          { name: 'K8S, Docker', level: 3, moreInfo: 'Istio, Docker-compose' },
+          { name: 'Redis, PgSQL', level: 3, moreInfo: '' },
           { name: 'ElasticSearch', level: 3, moreInfo: '' },
-          { name: 'MongoDB, PgSQL', level: 3, moreInfo: '' },
-          { name: 'Rust', level: 2, moreInfo: '' },
-          { name: 'C++, Java', level: 1, moreInfo: '' }
+          { name: 'Rust', level: 2, moreInfo: '' }
         ],
         labels: ['beginner', 'basics', 'intermediate', 'experienced', 'expert']
       };
@@ -105,10 +104,10 @@
 <style lang="sass" type="text/scss" rel="stylesheet/scss" scoped>
   @import '../scss/fonts';
   .chart-box {
-    min-height: 315px;
+    min-height: 215px;
     margin-top: 5px;
     position: relative;
     width: 235px;
-    height: 315px;
+    height: 255px;
   }
 </style>

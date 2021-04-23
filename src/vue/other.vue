@@ -36,7 +36,7 @@
           {{ $t('other.ace.role') }}
         </span>
         <span slot="sub-complement">
-          2017 - {{ $t('datetime.now') }}
+          2017
         </span>
         <div slot="bullet-points">
           <a href="https://nikolalohinski.github.io/ace/">
@@ -47,34 +47,26 @@
             <li>
               <span v-embolden="$t('other.ace.desc-1')"></span>
             </li>
-            <li>
-              <span v-embolden="$t('other.ace.desc-2')"></span>
-            </li>
           </ul>
         </div>
       </v-article>
       <v-article>
         <span slot="title">
-          <a href="https://project-nebula.github.io/">
-            {{ $t('other.nebula.name') }}
+          <a href="https://istio-in-action.training.stack-labs.com/">
+            {{ $t('other.istio.name') }}
           </a>
         </span>
         <span slot="sub-title">
-          {{ $t('other.nebula.role') }}
+          {{ $t('other.istio.role') }}
         </span>
         <span slot="sub-complement">
-          2016 - 2017
+          2019 - {{ $t('datetime.now') }}
         </span>
         <div slot="bullet-points">
-          <a href="https://project-nebula.github.io">
+          <a href="https://istio-in-action.training.stack-labs.com/">
             <i class="fa fa-link"></i>
-            https://project-nebula.github.io
+            https://istio-in-action.training.stack-labs.com/
           </a>
-          <ul>
-            <li>
-              <span v-embolden="$t('other.nebula.desc-1')"></span>
-            </li>
-          </ul>
         </div>
       </v-article>
     </div>
