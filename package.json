@@ -1,0 +1,34 @@
+{
+    "name": "nikolalohinski.github.io",
+    "version": "2.0.0",
+    "description": "My own resume built with antora",
+    "main": "playbook.yml",
+    "dependencies": {
+        "@antora/cli": "2.3.4",
+        "@antora/site-generator-default": "2.3.4",
+        "asciidoctor-kroki": "0.12.0"
+    },
+    "scripts": {
+        "antora": "./node_modules/.bin/antora",
+        "build": "npm run antora -- $npm_package_config_playbook --to-dir $npm_package_config_output"
+    },
+    "config": {
+        "playbook": "./playbook.yml",
+        "output": "./build"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/NikolaLohinski/nikolalohinski.github.io.git"
+    },
+    "keywords": [
+        "antora",
+        "asciidoc",
+        "documentation"
+    ],
+    "author": "nikolalohinski@gmail.com",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/NikolaLohinski/nikolalohinski.github.io/issues"
+    },
+    "homepage": "https://github.com/NikolaLohinski/nikolalohinski.github.io#readme"
+}

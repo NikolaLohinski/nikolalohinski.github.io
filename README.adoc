@@ -14,12 +14,16 @@ For a rendered version please visit : link:https://nikolalohinski.github.io[niko
 === Requirements
 
 * Install link:https://nodejs.org/en/download/[NodeJS] `>= 14.15.1`
-* Install `antora`  dependencies
+* Install dependencies:
 
 [source,bash]
 ----
-$ npm install --globally \
-    @antora/cli \
-    @antora/site-generator-default \
-    asciidoctor-kroki
+$ npm install 
+----
+
+=== Build
+
+[source,bash]
+----
+$ npm run build
 ----

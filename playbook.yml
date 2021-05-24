@@ -17,5 +17,5 @@ ui:
 asciidoc:
   extensions:
     - asciidoctor-kroki
-  # attributes:
-  #   kroki-fetch-diagram: true
+  attributes:
+    kroki-fetch-diagram: true
