@@ -19,7 +19,7 @@
 * Développement d'un système de caching avec *Redis* et d'authentification multi-projet se basant sur *Firebase* pour un serveur *Python* utilisant *Dash* 
 
 === Stagiaire data-science
-*Avril 2018 <icon-fa long-arrow-right> Octobre 2018 —* _@Thales Avionics_ 
+*Avril 2018 <icon-fa long-arrow-right> Octobre 2018 —* _@Thales AVS_ 
 
 * Industrialisation d'outils de *_datamining_* pour la *détection d'anomalies* sur des trajectoires de vol 
 * Création de nouvelles *suites de tests* sur données avion pour accélérer la validation produit 
@@ -28,6 +28,8 @@
 *Janvier 2017 <icon-fa long-arrow-right> Juillet 2017 —* _@Sfara Inc._ 
 
 * Développement _front-end_ de moyens de visualisation de données en utilisant *VueJS*
+* Amélioration du traitement de données côté serveur *Python* à l'aide de *Flask* et *Luigi*
+* Amélioration en utilisant *ElasticSearch*, *Kibana* et *Logstash* de la gestion des évènements serveur
 
 == <icon-fa laptop> Informatique
 
@@ -39,7 +41,7 @@ link:https://www.credential.net/2owi1o2z?key=4ed0b80539780e02c2b08fb10c66355a622
 
 === Compétences
 
-vegalite::example$it-skills.json[]
+vegalite::common/it-skills.json[]
 
 
 === Autres
@@ -47,7 +49,7 @@ vegalite::example$it-skills.json[]
 link:https://istio-in-action.training.stack-labs.com/[<icon-fa link> istion-in-action.training.stack-labs.com]
 * _Awesome Coinche Entertainer_ *-* Application progressive +
 link:https://nikolalohinski.github.io/ace[<icon-fa link> nikolalohinski.github.io/ace]
-* _Tron WASM_ *-* Expérimentations WebAssembly +
+* _Tron WASM_ *-* Jeu pour expérimenter WebAssembly +
 link:https://github.com/nikolalohinski/tron-wasm[<icon-fa link> github.com/nikolalohinski/tron-wasm]
 
 == <icon-fa graduation-cap> Formation

@@ -1,1 +1,71 @@
 = Nikola Lohinski
+
+[.hide-bullets]
+* <icon-fa map-marker> 14 Allées Paul Sabatier, 31000 Toulouse 
+* <icon-fa github> link:https://github.com/nikolalohinski[github.com/nikolalohinski]
+* <icon-fa envelope> link:mailto:nikolalohinski@gmail.com[nikolalohinski@gmail.com]
+* <icon-fa phone> link:tel:+33623938586[06 23 93 85 86]
+
+== <icon-fa briefcase> Professional Experience
+
+=== Cloud Software Engineer
+*October 2018 <icon-fa long-arrow-right> Currently —* _@Stack-Labs_ 
+
+* Worked on several projects based on *Kubernetes* and deployed to *Google Cloud Platform*
+* Enhanced several existing *Golang* back-end micro services and prototyped new ones
+* Developed dev-ops pipelines through automated tools such as *Gitlab*
+* Experience with *TDD* approach for implementing *REST* distributed backend services
+* Enforced integration testing routines in a *CI* environment using *Cypress*
+* Developed a *Redis* caching and multi-project *Firebase* authentication system for a *Python* server running on *Dash*
+
+=== Data-science Intern
+*April 2018 <icon-fa long-arrow-right> October 2018 —* _@Thales AVS_ 
+
+* Enhancing and industrializing *datamining* and clustering algorithms for flight *anomaly detection*
+* Establishing new methods for *massive testing* on flight data to accelerate product validation
+
+=== Software development Intern
+*January 2017 <icon-fa long-arrow-right> July 2017 —* _@Sfara Inc._ 
+
+* Developed front-end web services and data visualization tools for a user portal using *VueJS*
+* Enhanced remote data storage and processing on *Python* servers through *Flask* and *Luigi*
+* Improved log handling using *ElasticSearch*, *Kibana* and *Logstash*
+
+== <icon-fa laptop> IT skills
+
+=== Certifications
+* _Google Cloud Architect_ *Avril 2019* +
+link:https://www.credential.net/2owi1o2z?key=4ed0b80539780e02c2b08fb10c66355a622cf07779c740f8a380a1463911143b[<icon-fa link> rebrand.ly/agent-k-gca-2019]
+* _Google Cloud Architect_ *Mai 2021* +
+link:https://www.credential.net/2owi1o2z?key=4ed0b80539780e02c2b08fb10c66355a622cf07779c740f8a380a1463911143b[<icon-fa link> rebrand.ly/agent-k-gca-2021]
+
+=== Languages & Frameworks
+
+vegalite::common/it-skills.json[]
+
+=== Other
+* _Istio on GKE_ *-* Conferences & presentations +
+link:https://istio-in-action.training.stack-labs.com/[<icon-fa link> istion-in-action.training.stack-labs.com]
+* _Awesome Coinche Entertainer_ *-* Progressive web app +
+link:https://nikolalohinski.github.io/ace[<icon-fa link> nikolalohinski.github.io/ace]
+* _Tron WASM_ *-* Game for experimenting WebAssembly +
+link:https://github.com/nikolalohinski/tron-wasm[<icon-fa link> github.com/nikolalohinski/tron-wasm]
+
+== <icon-fa graduation-cap> Education
+
+=== ISAE - Supaéro
+*2014 <icon-fa long-arrow-right> 2018 —* _Masters of engineering in data science_ 
+
+* *Data science* & *data mining* specialization
+* *Autonomous systems* course applied to robotics
+
+=== Lycée du Parc
+*2012 <icon-fa long-arrow-right> 2014 —* _Preparatory school MPSI/PSI*_ 
+
+* Competitive examination _Mines-Ponts_ *top 3%*
+
+== <icon-fa language> Langues
+[.hide-bullets]
+* <icon-flag fr> Français  *—* _Native language_
+* <icon-flag gb> Anglais  *—* _Fluent_ *—* TOEFL ITP *610/670*
+* <icon-flag hr> Croate *—* _Mother tongue_
