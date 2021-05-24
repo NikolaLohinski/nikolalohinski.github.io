@@ -18,5 +18,8 @@ For a rendered version please visit : link:https://nikolalohinski.github.io[niko
 
 [source,bash]
 ----
-$ npm install --globally @antora/cli @antora/site-generator-default
+$ npm install --globally \
+    @antora/cli \
+    @antora/site-generator-default \
+    asciidoctor-kroki
 ----

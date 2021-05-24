@@ -1,1 +1,70 @@
 = Nikola Lohinski
+
+[.hide-bullets]
+* <icon-fa map-marker> 14 Allées Paul Sabatier, 31000 Toulouse 
+* <icon-fa github> link:https://github.com/nikolalohinski[github.com/nikolalohinski]
+* <icon-fa envelope> link:mailto:nikolalohinski@gmail.com[nikolalohinski@gmail.com]
+* <icon-fa phone> link:tel:+33623938586[06 23 93 85 86]
+
+== <icon-fa briefcase> Expérience professionnelle
+
+=== Ingénieur logiciels cloud
+*Octobre 2018 <icon-fa long-arrow-right> Actuellement —* _@Stack-Labs_ 
+
+* Déploiement de clusters *Kubernetes* sur *Google Cloud Platform* pour différents projets
+* Implémentation et amélioration de nombreux micro-services en *Golang*
+* Automatisation de tâches de vérification, compilation et déploiement via *Gitlab CI/CD*
+* Travaux d'implémentation en méthodologie *TDD* de services *REST* pour un backend distribué 
+* Mise en place de politiques des tests d'intégration automatisés en *CI* à l'aide de *Cypress*
+* Développement d'un système de caching avec *Redis* et d'authentification multi-projet se basant sur *Firebase* pour un serveur *Python* utilisant *Dash* 
+
+=== Stagiaire data-science
+*Avril 2018 <icon-fa long-arrow-right> Octobre 2018 —* _@Thales Avionics_ 
+
+* Industrialisation d'outils de *_datamining_* pour la *détection d'anomalies* sur des trajectoires de vol 
+* Création de nouvelles *suites de tests* sur données avion pour accélérer la validation produit 
+
+=== Stagiaire développement logiciel
+*Janvier 2017 <icon-fa long-arrow-right> Juillet 2017 —* _@Sfara Inc._ 
+
+* Développement _front-end_ de moyens de visualisation de données en utilisant *VueJS*
+
+== <icon-fa laptop> Informatique
+
+=== Certifications
+* _Google Cloud Architect_ *Avril 2019* +
+link:https://www.credential.net/2owi1o2z?key=4ed0b80539780e02c2b08fb10c66355a622cf07779c740f8a380a1463911143b[<icon-fa link> rebrand.ly/agent-k-gca-2019]
+* _Google Cloud Architect_ *Mai 2021* +
+link:https://www.credential.net/2owi1o2z?key=4ed0b80539780e02c2b08fb10c66355a622cf07779c740f8a380a1463911143b[<icon-fa link> rebrand.ly/agent-k-gca-2021]
+
+=== Compétences
+
+vegalite::example$it-skills.json[]
+
+
+=== Autres
+* _Istio on GKE_ *-* Conférences & présentations +
+link:https://istio-in-action.training.stack-labs.com/[<icon-fa link> istion-in-action.training.stack-labs.com]
+* _Awesome Coinche Entertainer_ *-* Application progressive +
+link:https://nikolalohinski.github.io/ace[<icon-fa link> nikolalohinski.github.io/ace]
+* _Tron WASM_ *-* Expérimentations WebAssembly +
+link:https://github.com/nikolalohinski/tron-wasm[<icon-fa link> github.com/nikolalohinski/tron-wasm]
+
+== <icon-fa graduation-cap> Formation
+
+=== ISAE - Supaéro
+*2014 <icon-fa long-arrow-right> 2018 —* _Formation ingénieur en Data-Science_ 
+
+* Spécialisation en *science des données* et *_data mining_*
+* Domaine *Systèmes autonomes* en parcours *robotique*
+
+=== Lycée du Parc
+*2012 <icon-fa long-arrow-right> 2014 —* _Classe préparatoire MPSI/PSI*_ 
+
+* Classé *76ème* au Concours Commun Mines-Ponts
+
+== <icon-fa language> Langues
+[.hide-bullets]
+* <icon-flag fr> Français  *—* _Langue natale_
+* <icon-flag gb> Anglais  *—* _Confirmé_ *—* TOEFL ITP *610/670*
+* <icon-flag hr> Croate *—* _Langue maternelle_

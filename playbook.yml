@@ -13,3 +13,9 @@ ui:
   bundle:
     url: https://nikolalohinski.github.io/antora-resume/bundle/ui-latest.zip
     snapshot: true
+  supplemental_files: ./supplemental
+asciidoc:
+  extensions:
+    - asciidoctor-kroki
+  # attributes:
+  #   kroki-fetch-diagram: true

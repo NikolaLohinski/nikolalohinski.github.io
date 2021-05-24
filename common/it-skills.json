@@ -1,0 +1,61 @@
+{
+    "data": {
+        "values": [{
+                "skill": "Golang",
+                "level": 5
+            },
+            {
+                "skill": "Python",
+                "level": 5
+            },
+            {
+                "skill": "JS, NodeJS",
+                "level": 4
+            },
+            {
+                "skill": "Terraform",
+                "level": 5
+            },
+            {
+                "skill": "K8S, Docker",
+                "level": 4
+            },
+            {
+                "skill": "PostgreSQL",
+                "level": 3
+            },
+            {
+                "skill": "Elasticsearch",
+                "level": 3
+            },
+            {
+                "skill": "Rust",
+                "level": 2
+            }
+        ]
+    },
+    "config": {
+        "background": null
+    },
+    "mark": {
+        "type": "bar",
+        "color": "#fcfcfc",
+        "stroke": "#222222"
+    },
+    "encoding": {
+        "x": {
+            "type": "quantitative",
+            "field": "level",
+            "title": null,
+            "axis": {
+                "labelExpr": "['★', '★★', '★★★', '★★★★', '★★★★★'][datum.value - 1]",
+                "labelAngle": -15
+            }
+        },
+        "y": {
+            "field": "skill",
+            "title": null,
+            "sort": "-x"
+        }
+    }
+}
