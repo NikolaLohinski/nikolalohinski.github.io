@@ -1,47 +1,22 @@
 = Curriculum Vitae
 
-== Development branch
-
 image:https://img.shields.io/github/license/nikolalohinski/nikolalohinski.github.io.svg?colorB=#da644e[license]
 image:https://img.shields.io/github/repo-size/nikolalohinski/nikolalohinski.github.io.svg[size]
 
 _Author : link:https://github.com/NikolaLohinski[Nikola LOHINSKI]_
 
 _This is my own responsive and dynamic resume built with_ link:https://antora.org/[`antora`]. 
-_It is not especially meant to be reusable, but feel free to copy and share the 
-design, the components or any part of code you may find interesting._
 
-For a rendered version please visit : https://nikolalohinski.github.io
+For a rendered version please visit : link:https://nikolalohinski.github.io[nikolalohinski.github.io]
 
-== Description
+== Development
 
-This repository is organized in a rather specific way:
+=== Requirements
 
-* The `master` branch holds the bundled HTML rendered document. It is meant to be automatically deployed to a Github page ;
-* The `development` branch holds the definition of the `antora` UI to be used to generate the resume, and the `antora` playbook file describing the content ;
-* Any `<Language>` branch (for example `Français` or `English`) holds the `.adoc` documents with the actual content, and is referenced in the `development` playbook file to be bundled and deployed.
-
-== Requirements
-* Install link:https://nodejs.org/en/[NodeJS] `14.15.1` or greater.
-
-== Getting started
-* Install the required dependencies:
+* Install link:https://nodejs.org/en/download/[NodeJS] `>= 14.15.1`
+* Install `antora`  dependencies
 
 [source,bash]
 ----
-$ npm install
-----
-
-* Serve a preview and navigate to the indicated port in your favourite browser:
-
-[source,bash]
-----
-$ npm run preview
-----
-
-* Build the bundle for usage or export:
-
-[source,bash]
-----
-$ npm run bundle
+$ npm install --globally @antora/cli @antora/site-generator-default
 ----

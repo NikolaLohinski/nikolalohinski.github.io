@@ -1,0 +1,15 @@
+site:
+  title: Nikola Lohinski
+  start_page: fr-FR::index.adoc
+content:
+  sources:
+  - url: ./.
+    branches: [HEAD]
+    start_path: en-EN
+  - url: ./.
+    branches: [HEAD]
+    start_path: fr-FR
+ui:
+  bundle:
+    url: https://nikolalohinski.github.io/antora-resume/bundle/ui-latest.zip
+    snapshot: true
