@@ -5,10 +5,10 @@ content:
   sources:
   - url: ./.
     branches: [HEAD]
-    start_path: en-EN
+    start_path: content/en-EN
   - url: ./.
     branches: [HEAD]
-    start_path: fr-FR
+    start_path: content/fr-FR
 ui:
   bundle:
     url: https://nikolalohinski.github.io/antora-resume/bundle/ui-latest.zip

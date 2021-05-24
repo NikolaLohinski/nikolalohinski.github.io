@@ -41,7 +41,7 @@ link:https://www.credential.net/2owi1o2z?key=4ed0b80539780e02c2b08fb10c66355a622
 
 === Compétences
 
-vegalite::common/it-skills.json[]
+vegalite::content/common/it-skills.json[]
 
 
 === Autres
