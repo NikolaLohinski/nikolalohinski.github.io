@@ -1,7 +1,7 @@
 = Nikola Lohinski
 
 [.hide-bullets]
-* <icon-fa map-marker> 14 Allées Paul Sabatier, 31000 Toulouse 
+* <icon-fa map-marker> 14 Allées Paul Sabatier, 31000 Toulouse, France
 * <icon-fa github> link:https://github.com/nikolalohinski[github.com/nikolalohinski]
 * <icon-fa envelope> link:mailto:nikolalohinski@gmail.com[nikolalohinski@gmail.com]
 * <icon-fa phone> link:tel:+33623938586[06 23 93 85 86]
@@ -34,10 +34,10 @@
 == <icon-fa laptop> IT skills
 
 === Certifications
-* _Google Cloud Architect_ *Avril 2019* +
-link:https://www.credential.net/2owi1o2z?key=4ed0b80539780e02c2b08fb10c66355a622cf07779c740f8a380a1463911143b[<icon-fa link> rebrand.ly/agent-k-gca-2019]
-* _Google Cloud Architect_ *Mai 2021* +
-link:https://www.credential.net/2owi1o2z?key=4ed0b80539780e02c2b08fb10c66355a622cf07779c740f8a380a1463911143b[<icon-fa link> rebrand.ly/agent-k-gca-2021]
+* _Google Cloud Architect_ *April 2019* +
+link:https://rebrand.ly/agent-k-gca-2019[<icon-fa link> rebrand.ly/agent-k-gca-2019]
+* _Google Cloud Architect_ *May 2021* +
+link:https://rebrand.ly/agent-k-gca-2021[<icon-fa link> rebrand.ly/agent-k-gca-2021]
 
 === Languages & Frameworks
 
@@ -64,8 +64,8 @@ link:https://github.com/nikolalohinski/tron-wasm[<icon-fa link> github.com/nikol
 
 * Competitive examination _Mines-Ponts_ *top 3%*
 
-== <icon-fa language> Langues
+== <icon-fa language> Languages
 [.hide-bullets]
-* <icon-flag fr> Français  *—* _Native language_
-* <icon-flag gb> Anglais  *—* _Fluent_ *—* TOEFL ITP *610/670*
-* <icon-flag hr> Croate *—* _Mother tongue_
+* <icon-flag fr> French  *—* _Native language_
+* <icon-flag gb> English  *—* _Fluent_ *—* TOEFL ITP *610/670*
+* <icon-flag hr> Croatian *—* _Mother tongue_

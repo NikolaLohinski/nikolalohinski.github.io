@@ -35,9 +35,9 @@
 
 === Certifications
 * _Google Cloud Architect_ *Avril 2019* +
-link:https://www.credential.net/2owi1o2z?key=4ed0b80539780e02c2b08fb10c66355a622cf07779c740f8a380a1463911143b[<icon-fa link> rebrand.ly/agent-k-gca-2019]
+link:https://rebrand.ly/agent-k-gca-2019[<icon-fa link> rebrand.ly/agent-k-gca-2019]
 * _Google Cloud Architect_ *Mai 2021* +
-link:https://www.credential.net/2owi1o2z?key=4ed0b80539780e02c2b08fb10c66355a622cf07779c740f8a380a1463911143b[<icon-fa link> rebrand.ly/agent-k-gca-2021]
+link:https://rebrand.ly/agent-k-gca-2021[<icon-fa link> rebrand.ly/agent-k-gca-2021]
 
 === Compétences
 
