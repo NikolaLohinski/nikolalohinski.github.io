@@ -34,10 +34,13 @@
 == <icon-fa laptop> IT skills
 
 === Certifications
-* _Google Cloud Architect_ *April 2019* +
-link:https://rebrand.ly/agent-k-gca-2019[<icon-fa link> rebrand.ly/agent-k-gca-2019]
 * _Google Cloud Architect_ *May 2021* +
 link:https://rebrand.ly/agent-k-gca-2021[<icon-fa link> rebrand.ly/agent-k-gca-2021]
+* _Gitlab Professional Service Engineer_ *April 2021* +
+link:https://rebrand.ly/agent-k-gitlab-se-2021[<icon-fa link> rebrand.ly/agent-k-gitlab-gse-2021]
+* _Google Cloud Architect_ *April 2019* +
+link:https://rebrand.ly/agent-k-gca-2019[<icon-fa link> rebrand.ly/agent-k-gca-2019]
+
 
 === Languages & Frameworks
 
